@@ -1,10 +1,32 @@
-## graphify
+# CLAUDE.md: Diretrizes para Claude Code (Misho Bonsai)
 
-This project has a knowledge graph at graphify-out/ with god nodes, community structure, and cross-file relationships.
+> Consulte o arquivo raiz [AGENTS.md](AGENTS.md) para as regras completas e contexto do projeto.
 
-Rules:
-- When graphify-out/graph.json exists, run `graphify query "<question>"` before your first grep, search or source-file read for a codebase question, and put this rule in every subagent prompt that explores code. Read raw files only for lines the graph or an earlier read already located. Use `graphify path "<A>" "<B>"` for relationships and `graphify explain "<concept>"` for focused concepts. These return a scoped subgraph, usually much smaller than GRAPH_REPORT.md or raw grep output.
-- If graphify-out/wiki/index.md exists, use it for broad navigation instead of raw source browsing.
-- Read graphify-out/GRAPH_REPORT.md only for broad architecture review or when query/path/explain do not surface enough context.
-- After modifying code, run `graphify update .` to keep the graph current (AST-only, no API cost).
-- A committed graphify-out/graph.json is rewritten whole on every build, so a large diff to it in a pull request is expected. Do not flag it as churn or suggest skipping the graph rebuild or its hooks.
+---
+
+## Regras Essenciais
+
+1. **Código 100% IA, Revisão Humana:** Todo código deve ser gerado por IA e submetido via PR com o template `.github/pull_request_template.md`.
+2. **Nenhuma transação real:** Pagamentos, estoque e frete são estritamente simulados.
+3. **Consulte o Grafo Primeiro (graphify):**
+   - Quando `graphify-out/graph.json` existir, use `graphify query "<pergunta>"` antes de fazer grep ou ler arquivos em massa.
+   - Use `graphify path "<A>" "<B>"` e `graphify explain "<conceito>"`.
+   - Após modificar código, execute `graphify update .` para atualizar o grafo.
+4. **Anti-Bloat & YAGNI (ponytail):**
+   - Siga **The Ladder**: YAGNI → Reuso → Standard Library → Dependências Existentes → Código Mínimo.
+   - Não sacrifique validação de entrada, segurança ou tratamento de erros.
+5. **Especificação Prévia (interview-me):**
+   - Em caso de ambiguidade ou nova funcionalidade, use `/interview-me` para documentar a especificação em `docs/specs/`.
+
+---
+
+## Comandos Rápidos
+
+```bash
+pnpm install          # Instalar dependências
+docker compose up -d  # Subir banco MySQL
+pnpm dev              # Executar API e Web em paralelo
+pnpm run build        # Build de todos os workspaces
+pnpm run lint         # Verificação de tipos TypeScript
+pnpm run test         # Rodar testes
+```

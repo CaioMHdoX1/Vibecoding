@@ -1,0 +1,22 @@
+{
+  "name": "misho-bonsai-monorepo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "E-commerce de Bonsai desenvolvido 100% com IA (Misho Bonsai)",
+  "packageManager": "pnpm@9.15.0",
+  "scripts": {
+    "build": "pnpm --recursive run build",
+    "lint": "pnpm --recursive run lint",
+    "test": "pnpm --recursive run test",
+    "dev": "pnpm --parallel run dev",
+    "dev:api": "pnpm --filter @misho/api run start:dev",
+    "dev:web": "pnpm --filter @misho/web run dev",
+    "prisma:generate": "pnpm --filter @misho/api run prisma:generate",
+    "prisma:migrate": "pnpm --filter @misho/api run prisma:migrate",
+    "prisma:seed": "pnpm --filter @misho/api run prisma:seed"
+  },
+  "devDependencies": {
+    "prettier": "^3.4.2",
+    "typescript": "^5.7.2"
+  }
+}
