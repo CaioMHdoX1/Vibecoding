@@ -1,25 +1,14 @@
-# Modelo de ADR
+# Architecture Decision Record (ADR) Template
 
-## Título
+- **Title**: 
+- **Date**: YYYY-MM-DD
+- **Status**: Proposed / Accepted / Superseded / Deprecated
+- **Context**: (Why is this decision needed?)
+- **Decision**: (What is the chosen solution?)
+- **Consequences**: (Positive and negative impacts)
+- **Alternatives considered**:
+  1. 
+  2. 
+  3. 
 
-Uma breve descrição da decisão.
-
-## Status
-
-Proposed | Accepted | Deprecated | Superseded
-
-## Contexto
-
-Descreva o contexto que levou à necessidade da decisão.
-
-## Decisão
-
-Explique a decisão tomada.
-
-## Consequências
-
-Liste os impactos positivos e negativos da decisão.
-
----
-
-*Este modelo deve ser copiado para cada novo ADR em `docs/adr/` com o número adequado (ex.: `ADR-001.md`).*
+*Use this template for each architectural decision.*
