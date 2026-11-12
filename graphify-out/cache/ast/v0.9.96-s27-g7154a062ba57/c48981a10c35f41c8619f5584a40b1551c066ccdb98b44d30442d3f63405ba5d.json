@@ -1,1 +1,68 @@
-{"nodes": [{"id": "$graphify-root$_agents_skills_interview_me_verify_md", "label": "VERIFY.md", "file_type": "document", "node_kind": "page", "source_file": ".agents/skills/interview-me/VERIFY.md", "source_location": "L1"}, {"id": "$graphify-root$_agents_skills_interview_me_verify_spec_drift_verification_guide_verify_md", "label": "Spec Drift Verification Guide (VERIFY.md)", "file_type": "document", "node_kind": "heading", "source_file": ".agents/skills/interview-me/VERIFY.md", "source_location": "L1"}, {"id": "$graphify-root$_agents_skills_interview_me_verify_objective", "label": "Objective", "file_type": "document", "node_kind": "heading", "source_file": ".agents/skills/interview-me/VERIFY.md", "source_location": "L7"}, {"id": "$graphify-root$_agents_skills_interview_me_verify_verification_protocol", "label": "Verification Protocol", "file_type": "document", "node_kind": "heading", "source_file": ".agents/skills/interview-me/VERIFY.md", "source_location": "L17"}], "edges": [{"source": "$graphify-root$_agents_skills_interview_me_verify_md", "target": "$graphify-root$_agents_skills_interview_me_verify_spec_drift_verification_guide_verify_md", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".agents/skills/interview-me/VERIFY.md", "source_location": "L1", "weight": 1.0}, {"source": "$graphify-root$_agents_skills_interview_me_verify_spec_drift_verification_guide_verify_md", "target": "$graphify-root$_agents_skills_interview_me_verify_objective", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".agents/skills/interview-me/VERIFY.md", "source_location": "L7", "weight": 1.0}, {"source": "$graphify-root$_agents_skills_interview_me_verify_spec_drift_verification_guide_verify_md", "target": "$graphify-root$_agents_skills_interview_me_verify_verification_protocol", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".agents/skills/interview-me/VERIFY.md", "source_location": "L17", "weight": 1.0}], "raw_calls": [], "input_tokens": 0, "output_tokens": 0}
+{
+	"nodes": [
+		{
+			"id": "$graphify-root$_agents_skills_interview_me_verify_md",
+			"label": "VERIFY.md",
+			"file_type": "document",
+			"node_kind": "page",
+			"source_file": ".agents/skills/interview-me/VERIFY.md",
+			"source_location": "L1"
+		},
+		{
+			"id": "$graphify-root$_agents_skills_interview_me_verify_spec_drift_verification_guide_verify_md",
+			"label": "Spec Drift Verification Guide (VERIFY.md)",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".agents/skills/interview-me/VERIFY.md",
+			"source_location": "L1"
+		},
+		{
+			"id": "$graphify-root$_agents_skills_interview_me_verify_objective",
+			"label": "Objective",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".agents/skills/interview-me/VERIFY.md",
+			"source_location": "L7"
+		},
+		{
+			"id": "$graphify-root$_agents_skills_interview_me_verify_verification_protocol",
+			"label": "Verification Protocol",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".agents/skills/interview-me/VERIFY.md",
+			"source_location": "L17"
+		}
+	],
+	"edges": [
+		{
+			"source": "$graphify-root$_agents_skills_interview_me_verify_md",
+			"target": "$graphify-root$_agents_skills_interview_me_verify_spec_drift_verification_guide_verify_md",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".agents/skills/interview-me/VERIFY.md",
+			"source_location": "L1",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_agents_skills_interview_me_verify_spec_drift_verification_guide_verify_md",
+			"target": "$graphify-root$_agents_skills_interview_me_verify_objective",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".agents/skills/interview-me/VERIFY.md",
+			"source_location": "L7",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_agents_skills_interview_me_verify_spec_drift_verification_guide_verify_md",
+			"target": "$graphify-root$_agents_skills_interview_me_verify_verification_protocol",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".agents/skills/interview-me/VERIFY.md",
+			"source_location": "L17",
+			"weight": 1.0
+		}
+	],
+	"raw_calls": [],
+	"input_tokens": 0,
+	"output_tokens": 0
+}

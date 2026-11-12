@@ -1,22 +1,13 @@
-# AI Log: [Título da Tarefa / Funcionalidade]
+# AI Log Template
 
-- **Data:** AAAA-MM-DD
-- **Autor / Integrante:** [Nome do integrante]
-- **Ferramenta de IA Utilizada:** Claude Code | Antigravity | Gemini | ChatGPT | Outra
-- **PR Relacionado:** #[Número]
+Este template deve ser usado em cada Pull Request para registrar o uso de ferramentas de IA.
 
----
+- **Ferramenta(s) de IA utilizada(s):** (ex.: Antigravity, Claude Code, Gemini)
+- **Prompt‑chave:** texto completo do prompt que gerou o código ou a solução.
+- **Resultado esperado:** breve descrição do que a IA deveria produzir.
+- **Resultado obtido:** resumo do que foi realmente gerado.
+- **Erros / Ajustes necessários:** listagem de problemas encontrados e correções feitas manualmente.
+- **Lições aprendidas:** ponto(s) que podem melhorar prompts futuros ou a integração da IA.
+- **Referências:** links para documentos relevantes (ex.: `docs/specs/`, `AGENTS.md`).
 
-## 1. Prompt(s) Chave Utilizado(s)
-\`\`\`text
-[Cole aqui o prompt principal que orientou a IA a gerar a solução]
-\`\`\`
-
-## 2. Decisões Técnicas e Raciocínio da IA
-O que a IA propôs, quais padrões seguiu e como interagiu com as skills (graphify / ponytail / interview-me).
-
-## 3. Erros, Limitações ou Alucinações da IA
-O que a IA tentou fazer de errado, dependências extras desnecessárias sugeridas ou código que precisou de intervenção humana.
-
-## 4. Lições Aprendidas e Dicas para o Time
-O que aprendemos com esta iteração para melhorar os próximos prompts e revisões.
+> **Observação:** este arquivo é temporário; mantenha‑o na raiz de `docs/ai-log/` para fácil acesso durante a fase inicial.

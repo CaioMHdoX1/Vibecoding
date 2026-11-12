@@ -1,1 +1,102 @@
-{"nodes": [{"id": "$graphify-root$_docs_ai_log_template_md", "label": "template.md", "file_type": "document", "node_kind": "page", "source_file": "docs/ai-log/template.md", "source_location": "L1"}, {"id": "$graphify-root$_docs_ai_log_template_ai_log_t\u00edtulo_da_tarefa_funcionalidade", "label": "AI Log: [T\u00edtulo da Tarefa / Funcionalidade]", "file_type": "document", "node_kind": "heading", "source_file": "docs/ai-log/template.md", "source_location": "L1"}, {"id": "$graphify-root$_docs_ai_log_template_1_prompt_s_chave_utilizado_s", "label": "1. Prompt(s) Chave Utilizado(s)", "file_type": "document", "node_kind": "heading", "source_file": "docs/ai-log/template.md", "source_location": "L10"}, {"id": "$graphify-root$_docs_ai_log_template_2_decis\u00f5es_t\u00e9cnicas_e_racioc\u00ednio_da_ia", "label": "2. Decis\u00f5es T\u00e9cnicas e Racioc\u00ednio da IA", "file_type": "document", "node_kind": "heading", "source_file": "docs/ai-log/template.md", "source_location": "L15"}, {"id": "$graphify-root$_docs_ai_log_template_3_erros_limita\u00e7\u00f5es_ou_alucina\u00e7\u00f5es_da_ia", "label": "3. Erros, Limita\u00e7\u00f5es ou Alucina\u00e7\u00f5es da IA", "file_type": "document", "node_kind": "heading", "source_file": "docs/ai-log/template.md", "source_location": "L18"}, {"id": "$graphify-root$_docs_ai_log_template_4_li\u00e7\u00f5es_aprendidas_e_dicas_para_o_time", "label": "4. Li\u00e7\u00f5es Aprendidas e Dicas para o Time", "file_type": "document", "node_kind": "heading", "source_file": "docs/ai-log/template.md", "source_location": "L21"}], "edges": [{"source": "$graphify-root$_docs_ai_log_template_md", "target": "$graphify-root$_docs_ai_log_template_ai_log_t\u00edtulo_da_tarefa_funcionalidade", "relation": "contains", "confidence": "EXTRACTED", "source_file": "docs/ai-log/template.md", "source_location": "L1", "weight": 1.0}, {"source": "$graphify-root$_docs_ai_log_template_ai_log_t\u00edtulo_da_tarefa_funcionalidade", "target": "$graphify-root$_docs_ai_log_template_1_prompt_s_chave_utilizado_s", "relation": "contains", "confidence": "EXTRACTED", "source_file": "docs/ai-log/template.md", "source_location": "L10", "weight": 1.0}, {"source": "$graphify-root$_docs_ai_log_template_ai_log_t\u00edtulo_da_tarefa_funcionalidade", "target": "$graphify-root$_docs_ai_log_template_2_decis\u00f5es_t\u00e9cnicas_e_racioc\u00ednio_da_ia", "relation": "contains", "confidence": "EXTRACTED", "source_file": "docs/ai-log/template.md", "source_location": "L15", "weight": 1.0}, {"source": "$graphify-root$_docs_ai_log_template_ai_log_t\u00edtulo_da_tarefa_funcionalidade", "target": "$graphify-root$_docs_ai_log_template_3_erros_limita\u00e7\u00f5es_ou_alucina\u00e7\u00f5es_da_ia", "relation": "contains", "confidence": "EXTRACTED", "source_file": "docs/ai-log/template.md", "source_location": "L18", "weight": 1.0}, {"source": "$graphify-root$_docs_ai_log_template_ai_log_t\u00edtulo_da_tarefa_funcionalidade", "target": "$graphify-root$_docs_ai_log_template_4_li\u00e7\u00f5es_aprendidas_e_dicas_para_o_time", "relation": "contains", "confidence": "EXTRACTED", "source_file": "docs/ai-log/template.md", "source_location": "L21", "weight": 1.0}], "raw_calls": [], "input_tokens": 0, "output_tokens": 0}
+{
+	"nodes": [
+		{
+			"id": "$graphify-root$_docs_ai_log_template_md",
+			"label": "template.md",
+			"file_type": "document",
+			"node_kind": "page",
+			"source_file": "docs/ai-log/template.md",
+			"source_location": "L1"
+		},
+		{
+			"id": "$graphify-root$_docs_ai_log_template_ai_log_t\u00edtulo_da_tarefa_funcionalidade",
+			"label": "AI Log: [T\u00edtulo da Tarefa / Funcionalidade]",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "docs/ai-log/template.md",
+			"source_location": "L1"
+		},
+		{
+			"id": "$graphify-root$_docs_ai_log_template_1_prompt_s_chave_utilizado_s",
+			"label": "1. Prompt(s) Chave Utilizado(s)",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "docs/ai-log/template.md",
+			"source_location": "L10"
+		},
+		{
+			"id": "$graphify-root$_docs_ai_log_template_2_decis\u00f5es_t\u00e9cnicas_e_racioc\u00ednio_da_ia",
+			"label": "2. Decis\u00f5es T\u00e9cnicas e Racioc\u00ednio da IA",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "docs/ai-log/template.md",
+			"source_location": "L15"
+		},
+		{
+			"id": "$graphify-root$_docs_ai_log_template_3_erros_limita\u00e7\u00f5es_ou_alucina\u00e7\u00f5es_da_ia",
+			"label": "3. Erros, Limita\u00e7\u00f5es ou Alucina\u00e7\u00f5es da IA",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "docs/ai-log/template.md",
+			"source_location": "L18"
+		},
+		{
+			"id": "$graphify-root$_docs_ai_log_template_4_li\u00e7\u00f5es_aprendidas_e_dicas_para_o_time",
+			"label": "4. Li\u00e7\u00f5es Aprendidas e Dicas para o Time",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "docs/ai-log/template.md",
+			"source_location": "L21"
+		}
+	],
+	"edges": [
+		{
+			"source": "$graphify-root$_docs_ai_log_template_md",
+			"target": "$graphify-root$_docs_ai_log_template_ai_log_t\u00edtulo_da_tarefa_funcionalidade",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "docs/ai-log/template.md",
+			"source_location": "L1",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_docs_ai_log_template_ai_log_t\u00edtulo_da_tarefa_funcionalidade",
+			"target": "$graphify-root$_docs_ai_log_template_1_prompt_s_chave_utilizado_s",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "docs/ai-log/template.md",
+			"source_location": "L10",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_docs_ai_log_template_ai_log_t\u00edtulo_da_tarefa_funcionalidade",
+			"target": "$graphify-root$_docs_ai_log_template_2_decis\u00f5es_t\u00e9cnicas_e_racioc\u00ednio_da_ia",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "docs/ai-log/template.md",
+			"source_location": "L15",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_docs_ai_log_template_ai_log_t\u00edtulo_da_tarefa_funcionalidade",
+			"target": "$graphify-root$_docs_ai_log_template_3_erros_limita\u00e7\u00f5es_ou_alucina\u00e7\u00f5es_da_ia",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "docs/ai-log/template.md",
+			"source_location": "L18",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_docs_ai_log_template_ai_log_t\u00edtulo_da_tarefa_funcionalidade",
+			"target": "$graphify-root$_docs_ai_log_template_4_li\u00e7\u00f5es_aprendidas_e_dicas_para_o_time",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "docs/ai-log/template.md",
+			"source_location": "L21",
+			"weight": 1.0
+		}
+	],
+	"raw_calls": [],
+	"input_tokens": 0,
+	"output_tokens": 0
+}

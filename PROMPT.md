@@ -31,20 +31,20 @@ Como o público do código são pessoas iniciantes/medianas e recrutadores, **pr
 
 ## 3. Stack decidida
 
-| Camada | Tecnologia | Observações |
-|---|---|---|
-| Linguagem | TypeScript em todo o projeto | `strict` ativado |
-| Front-end | React + Vite + TypeScript | SPA responsiva; Tailwind CSS para estilos |
-| Back-end | Node.js + NestJS | Arquitetura modular; documentação com Swagger/OpenAPI |
-| Banco de dados | MySQL | Via Docker Compose |
-| ORM | Prisma | Migrations e seed versionados |
-| Autenticação | JWT de curta duração + refresh token em cookie `httpOnly` | Papéis: `CUSTOMER`, `MANAGER`, `ADMIN` |
-| Monorepo | pnpm workspaces | `apps/web`, `apps/api`, `packages/shared` |
-| Ambiente local | Docker Compose | Um comando sobe banco, API e web |
-| CI | GitHub Actions | Lint, testes e build a cada PR |
-| Testes (API) | Jest (padrão do NestJS) | Unitários e de integração |
-| Testes (web) | Vitest + Testing Library | Componentes e hooks |
-| Testes E2E | Playwright | Apenas 4 a 5 fluxos críticos |
+| Camada         | Tecnologia                                                | Observações                                           |
+| -------------- | --------------------------------------------------------- | ----------------------------------------------------- |
+| Linguagem      | TypeScript em todo o projeto                              | `strict` ativado                                      |
+| Front-end      | React + Vite + TypeScript                                 | SPA responsiva; Tailwind CSS para estilos             |
+| Back-end       | Node.js + NestJS                                          | Arquitetura modular; documentação com Swagger/OpenAPI |
+| Banco de dados | MySQL                                                     | Via Docker Compose                                    |
+| ORM            | Prisma                                                    | Migrations e seed versionados                         |
+| Autenticação   | JWT de curta duração + refresh token em cookie `httpOnly` | Papéis: `CUSTOMER`, `MANAGER`, `ADMIN`                |
+| Monorepo       | pnpm workspaces                                           | `apps/web`, `apps/api`, `packages/shared`             |
+| Ambiente local | Docker Compose                                            | Um comando sobe banco, API e web                      |
+| CI             | GitHub Actions                                            | Lint, testes e build a cada PR                        |
+| Testes (API)   | Jest (padrão do NestJS)                                   | Unitários e de integração                             |
+| Testes (web)   | Vitest + Testing Library                                  | Componentes e hooks                                   |
+| Testes E2E     | Playwright                                                | Apenas 4 a 5 fluxos críticos                          |
 
 **Decisões delegadas à IA (registrar cada uma em ADR, com alternativas e justificativa):** biblioteca de roteamento, gerenciamento de estado e de dados no front (por exemplo, TanStack Query), biblioteca de componentes/UI primitives, validação (por exemplo, Zod ou class-validator), estratégia de upload de imagens, linter e formatador. Escolha sempre as opções mais comuns, estáveis e bem suportadas por IAs.
 
@@ -78,6 +78,7 @@ Como o público do código são pessoas iniciantes/medianas e recrutadores, **pr
 ## 4. Escopo funcional
 
 ### 4.1 Loja (público e cliente)
+
 - **Catálogo** com listagem, paginação e ordenação.
 - **Busca e filtros** pelos atributos de bonsai: espécie, idade, estilo, porte, nível de cuidado e exposição ao sol, além de faixa de preço.
 - **Página de produto** com galeria de imagens, atributos do bonsai, guia de cuidados e **variações de porte e vaso**.
@@ -87,22 +88,27 @@ Como o público do código são pessoas iniciantes/medianas e recrutadores, **pr
 - **Cupons** de desconto (prioridade baixa, ver seção 11).
 
 ### 4.2 Cliente
+
 Cadastro, login, logout, perfil, endereços e histórico de pedidos.
 
 ### 4.3 Checkout (tudo simulado)
+
 - **Frete simulado:** valor fixo ou por região (regras simples e documentadas).
 - **Pagamento simulado:** telas para Pix, cartão e boleto. **O resultado é configurável** (aprovado, recusado ou pendente), para permitir testar e demonstrar os três fluxos. Nenhum dado de cartão real é processado ou armazenado.
 - **Confirmação de pedido** com número e resumo.
 - **Estoque simples por unidade**, decrementado na confirmação do pedido.
 
 ### 4.4 Painel administrativo
+
 - **MANAGER:** gerencia produtos, variações, imagens, estoque e pedidos (alterar status).
 - **ADMIN:** tudo que o gerente faz, mais gestão de usuários e papéis, cupons e relatório de eventos de rastreamento.
 
 ### 4.5 Rastreamento (pixel simulado)
+
 Eventos como `page_view`, `view_item`, `add_to_cart`, `begin_checkout` e `purchase` são registrados **no próprio sistema** (tabela no banco), sem serviços externos. O relatório no admin é prioridade baixa.
 
 ### 4.6 Interface
+
 Site **responsivo** (mobile-first), em **português do Brasil**. Sem app nativo.
 
 ---
@@ -133,6 +139,7 @@ Ponto de partida; refine na Etapa 1 e registre em ADR.
 **Direção:** moderno, **sem cara de "AI slop"**. Nome, logo e paleta serão **criados por IA e aprovados pelo time** na Etapa 0.
 
 **Regras para evitar o aspecto genérico:**
+
 - Proibido: gradientes roxo/azul genéricos, emojis como ícones, grades de cards idênticos com sombra padrão, textos vazios de marketing ("revolucione sua experiência"), tipografia padrão do navegador ou apenas Inter por inércia.
 - Definir **design tokens** (cores, tipografia, espaçamento, raios, sombras) em um único lugar e usá-los em todas as telas. **Não improvisar estilos tela a tela.**
 - Escolher tipografia e paleta de propósito, justificando em ADR (o assunto, bonsai, sugere contenção, textura e espaço em branco).
@@ -174,12 +181,12 @@ Ponto de partida; refine na Etapa 1 e registre em ADR.
 
 ### Uso das IAs por função (sugestão inicial, ajustável pelo time)
 
-| Função | Ferramenta sugerida |
-|---|---|
-| Implementação e refatoração em vários arquivos | Claude Code |
-| Interface, design e verificação visual do front | Antigravity |
-| Revisão cruzada e análise de contexto longo | Gemini |
-| Brainstorming, textos e geração de imagens placeholder | ChatGPT |
+| Função                                                 | Ferramenta sugerida |
+| ------------------------------------------------------ | ------------------- |
+| Implementação e refatoração em vários arquivos         | Claude Code         |
+| Interface, design e verificação visual do front        | Antigravity         |
+| Revisão cruzada e análise de contexto longo            | Gemini              |
+| Brainstorming, textos e geração de imagens placeholder | ChatGPT             |
 
 Regra de ouro: **quem gera o código não é quem aprova**. Toda revisão envolve um humano que não gerou o PR e, quando útil, uma segunda IA diferente da que gerou.
 
@@ -209,21 +216,22 @@ O PR deve conter: o que muda e por quê; critérios de aceite atendidos; **ferra
 
 ## 11. Cronograma e prioridades
 
-| Etapa | Período | Foco |
-|---|---|---|
-| 0. Fundação e método | Semana 1 (09/11 a 15/11) | Repo, identidade, `AGENTS.md`, Git, skills, ai-log |
-| 1. Especificação e arquitetura | Semanas 1 e 2 | User stories, ADRs, modelagem, API, wireframes |
-| 2. Base técnica | Semanas 2 e 3 | Monorepo, banco, CI, autenticação, Docker Compose |
-| 3. Núcleo da loja (MVP) | Semanas 3 a 5 | Catálogo, produto, carrinho, checkout simulado, pedidos, área do cliente |
-| 4. Admin e extras | Semanas 5 e 6 | Painel admin, avaliações, lista de desejos, pixel, responsividade |
-| 5. Qualidade e polimento | Semanas 6 e 7 | E2E, segurança, desempenho, dados e fotos reais |
-| 6. Vitrine para recrutadores | Semana 7 (em paralelo desde a semana 1) | README, demo, "Como foi feito com IA" |
+| Etapa                          | Período                                 | Foco                                                                     |
+| ------------------------------ | --------------------------------------- | ------------------------------------------------------------------------ |
+| 0. Fundação e método           | Semana 1 (09/11 a 15/11)                | Repo, identidade, `AGENTS.md`, Git, skills, ai-log                       |
+| 1. Especificação e arquitetura | Semanas 1 e 2                           | User stories, ADRs, modelagem, API, wireframes                           |
+| 2. Base técnica                | Semanas 2 e 3                           | Monorepo, banco, CI, autenticação, Docker Compose                        |
+| 3. Núcleo da loja (MVP)        | Semanas 3 a 5                           | Catálogo, produto, carrinho, checkout simulado, pedidos, área do cliente |
+| 4. Admin e extras              | Semanas 5 e 6                           | Painel admin, avaliações, lista de desejos, pixel, responsividade        |
+| 5. Qualidade e polimento       | Semanas 6 e 7                           | E2E, segurança, desempenho, dados e fotos reais                          |
+| 6. Vitrine para recrutadores   | Semana 7 (em paralelo desde a semana 1) | README, demo, "Como foi feito com IA"                                    |
 
 **Congelar o escopo do MVP no fim da Etapa 3.**
 
 **Se o prazo apertar, corte nesta ordem:** (1) relatório de eventos do pixel no admin, (2) cupons. **Avaliações e lista de desejos permanecem no escopo.**
 
 ### Divisão do trabalho (por camada)
+
 - **Dupla de back-end:** API, banco, autenticação, regras de negócio, testes da API.
 - **Dupla de front-end:** interface, design system, integração com a API, testes do front.
 - **Pontos de sincronização:** contrato da API (Swagger + `packages/shared`) definido antes de cada módulo; revisão cruzada entre as duplas.

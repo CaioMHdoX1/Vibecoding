@@ -1,1 +1,269 @@
-{"nodes": [{"id": "$graphify-root$_agents_skills_interview_me_skill_md", "label": "SKILL.md", "file_type": "document", "node_kind": "page", "source_file": ".agents/skills/interview-me/SKILL.md", "source_location": "L1", "frontmatter": {"name": "interview-me", "description": "Conducts a rigorous, Socratic senior-architect interview to turn vague ideas, requirements, or issue notes into production-grade engineering specifications before coding."}}, {"id": "$graphify-root$_agents_skills_interview_me_skill_interview_me", "label": "/interview-me", "file_type": "document", "node_kind": "heading", "source_file": ".agents/skills/interview-me/SKILL.md", "source_location": "L6"}, {"id": "$graphify-root$_agents_skills_interview_me_skill_when_to_use", "label": "When to Use", "file_type": "document", "node_kind": "heading", "source_file": ".agents/skills/interview-me/SKILL.md", "source_location": "L14"}, {"id": "$graphify-root$_agents_skills_interview_me_skill_commands_usage", "label": "Commands & Usage", "file_type": "document", "node_kind": "heading", "source_file": ".agents/skills/interview-me/SKILL.md", "source_location": "L23"}, {"id": "$graphify-root$_agents_skills_interview_me_skill_the_6_phase_spec_interview_workflow", "label": "The 6-Phase Spec Interview Workflow", "file_type": "document", "node_kind": "heading", "source_file": ".agents/skills/interview-me/SKILL.md", "source_location": "L36"}, {"id": "$graphify-root$_agents_skills_interview_me_skill_phase_1_intake_context_discovery", "label": "Phase 1: Intake & Context Discovery", "file_type": "document", "node_kind": "heading", "source_file": ".agents/skills/interview-me/SKILL.md", "source_location": "L38"}, {"id": "$graphify-root$_agents_skills_interview_me_skill_phase_2_the_socratic_interview_loop", "label": "Phase 2: The Socratic Interview Loop", "file_type": "document", "node_kind": "heading", "source_file": ".agents/skills/interview-me/SKILL.md", "source_location": "L43"}, {"id": "$graphify-root$_agents_skills_interview_me_skill_phase_3_trade_offs_decisions_log", "label": "Phase 3: Trade-offs & Decisions Log", "file_type": "document", "node_kind": "heading", "source_file": ".agents/skills/interview-me/SKILL.md", "source_location": "L53"}, {"id": "$graphify-root$_agents_skills_interview_me_skill_phase_4_production_grade_specification_generation", "label": "Phase 4: Production-Grade Specification Generation", "file_type": "document", "node_kind": "heading", "source_file": ".agents/skills/interview-me/SKILL.md", "source_location": "L58"}, {"id": "$graphify-root$_agents_skills_interview_me_skill_phase_5_architecture_diagrams_mermaid", "label": "Phase 5: Architecture Diagrams (Mermaid)", "file_type": "document", "node_kind": "heading", "source_file": ".agents/skills/interview-me/SKILL.md", "source_location": "L72"}, {"id": "$graphify-root$_agents_skills_interview_me_skill_phase_6_drift_verification_verify", "label": "Phase 6: Drift Verification (`--verify`)", "file_type": "document", "node_kind": "heading", "source_file": ".agents/skills/interview-me/SKILL.md", "source_location": "L78"}, {"id": "$graphify-root$_agents_skills_interview_me_skill_supporting_resources", "label": "Supporting Resources", "file_type": "document", "node_kind": "heading", "source_file": ".agents/skills/interview-me/SKILL.md", "source_location": "L90"}], "edges": [{"source": "$graphify-root$_agents_skills_interview_me_skill_md", "target": "$graphify-root$_agents_skills_interview_me_skill_interview_me", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".agents/skills/interview-me/SKILL.md", "source_location": "L6", "weight": 1.0}, {"source": "$graphify-root$_agents_skills_interview_me_skill_interview_me", "target": "$graphify-root$_agents_skills_interview_me_skill_when_to_use", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".agents/skills/interview-me/SKILL.md", "source_location": "L14", "weight": 1.0}, {"source": "$graphify-root$_agents_skills_interview_me_skill_interview_me", "target": "$graphify-root$_agents_skills_interview_me_skill_commands_usage", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".agents/skills/interview-me/SKILL.md", "source_location": "L23", "weight": 1.0}, {"source": "$graphify-root$_agents_skills_interview_me_skill_interview_me", "target": "$graphify-root$_agents_skills_interview_me_skill_the_6_phase_spec_interview_workflow", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".agents/skills/interview-me/SKILL.md", "source_location": "L36", "weight": 1.0}, {"source": "$graphify-root$_agents_skills_interview_me_skill_the_6_phase_spec_interview_workflow", "target": "$graphify-root$_agents_skills_interview_me_skill_phase_1_intake_context_discovery", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".agents/skills/interview-me/SKILL.md", "source_location": "L38", "weight": 1.0}, {"source": "$graphify-root$_agents_skills_interview_me_skill_the_6_phase_spec_interview_workflow", "target": "$graphify-root$_agents_skills_interview_me_skill_phase_2_the_socratic_interview_loop", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".agents/skills/interview-me/SKILL.md", "source_location": "L43", "weight": 1.0}, {"source": "$graphify-root$_agents_skills_interview_me_skill_the_6_phase_spec_interview_workflow", "target": "$graphify-root$_agents_skills_interview_me_skill_phase_3_trade_offs_decisions_log", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".agents/skills/interview-me/SKILL.md", "source_location": "L53", "weight": 1.0}, {"source": "$graphify-root$_agents_skills_interview_me_skill_the_6_phase_spec_interview_workflow", "target": "$graphify-root$_agents_skills_interview_me_skill_phase_4_production_grade_specification_generation", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".agents/skills/interview-me/SKILL.md", "source_location": "L58", "weight": 1.0}, {"source": "$graphify-root$_agents_skills_interview_me_skill_the_6_phase_spec_interview_workflow", "target": "$graphify-root$_agents_skills_interview_me_skill_phase_5_architecture_diagrams_mermaid", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".agents/skills/interview-me/SKILL.md", "source_location": "L72", "weight": 1.0}, {"source": "$graphify-root$_agents_skills_interview_me_skill_the_6_phase_spec_interview_workflow", "target": "$graphify-root$_agents_skills_interview_me_skill_phase_6_drift_verification_verify", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".agents/skills/interview-me/SKILL.md", "source_location": "L78", "weight": 1.0}, {"source": "$graphify-root$_agents_skills_interview_me_skill_interview_me", "target": "$graphify-root$_agents_skills_interview_me_skill_supporting_resources", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".agents/skills/interview-me/SKILL.md", "source_location": "L90", "weight": 1.0}, {"source": "$graphify-root$_agents_skills_interview_me_skill_md", "target": "$graphify-root$_agents_skills_interview_me_style_presets_md", "relation": "references", "confidence": "EXTRACTED", "source_file": ".agents/skills/interview-me/SKILL.md", "source_location": "L92", "weight": 1.0, "target_file": "$graphify-root$/.agents/skills/interview-me/STYLE_PRESETS.md"}, {"source": "$graphify-root$_agents_skills_interview_me_skill_md", "target": "$graphify-root$_agents_skills_interview_me_verify_md", "relation": "references", "confidence": "EXTRACTED", "source_file": ".agents/skills/interview-me/SKILL.md", "source_location": "L93", "weight": 1.0, "target_file": "$graphify-root$/.agents/skills/interview-me/VERIFY.md"}], "raw_calls": [{"caller_nid": "$graphify-root$_agents_skills_interview_me_skill_phase_2_the_socratic_interview_loop", "callee": "ponytail", "is_member_call": false, "language": "markdown", "context": "ponytail", "source_file": ".agents/skills/interview-me/SKILL.md", "source_location": "L47"}, {"caller_nid": "$graphify-root$_agents_skills_interview_me_skill_phase_5_architecture_diagrams_mermaid", "callee": "pending", "is_member_call": false, "language": "markdown", "context": "pending", "source_file": ".agents/skills/interview-me/SKILL.md", "source_location": "L76"}, {"caller_nid": "$graphify-root$_agents_skills_interview_me_skill_phase_5_architecture_diagrams_mermaid", "callee": "paid", "is_member_call": false, "language": "markdown", "context": "paid", "source_file": ".agents/skills/interview-me/SKILL.md", "source_location": "L76"}, {"caller_nid": "$graphify-root$_agents_skills_interview_me_skill_phase_5_architecture_diagrams_mermaid", "callee": "shipped", "is_member_call": false, "language": "markdown", "context": "shipped", "source_file": ".agents/skills/interview-me/SKILL.md", "source_location": "L76"}], "input_tokens": 0, "output_tokens": 0, "_cached_target_files": ["$graphify-root$/.agents/skills/interview-me/STYLE_PRESETS.md", "$graphify-root$/.agents/skills/interview-me/VERIFY.md"]}
+{
+	"nodes": [
+		{
+			"id": "$graphify-root$_agents_skills_interview_me_skill_md",
+			"label": "SKILL.md",
+			"file_type": "document",
+			"node_kind": "page",
+			"source_file": ".agents/skills/interview-me/SKILL.md",
+			"source_location": "L1",
+			"frontmatter": {
+				"name": "interview-me",
+				"description": "Conducts a rigorous, Socratic senior-architect interview to turn vague ideas, requirements, or issue notes into production-grade engineering specifications before coding."
+			}
+		},
+		{
+			"id": "$graphify-root$_agents_skills_interview_me_skill_interview_me",
+			"label": "/interview-me",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".agents/skills/interview-me/SKILL.md",
+			"source_location": "L6"
+		},
+		{
+			"id": "$graphify-root$_agents_skills_interview_me_skill_when_to_use",
+			"label": "When to Use",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".agents/skills/interview-me/SKILL.md",
+			"source_location": "L14"
+		},
+		{
+			"id": "$graphify-root$_agents_skills_interview_me_skill_commands_usage",
+			"label": "Commands & Usage",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".agents/skills/interview-me/SKILL.md",
+			"source_location": "L23"
+		},
+		{
+			"id": "$graphify-root$_agents_skills_interview_me_skill_the_6_phase_spec_interview_workflow",
+			"label": "The 6-Phase Spec Interview Workflow",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".agents/skills/interview-me/SKILL.md",
+			"source_location": "L36"
+		},
+		{
+			"id": "$graphify-root$_agents_skills_interview_me_skill_phase_1_intake_context_discovery",
+			"label": "Phase 1: Intake & Context Discovery",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".agents/skills/interview-me/SKILL.md",
+			"source_location": "L38"
+		},
+		{
+			"id": "$graphify-root$_agents_skills_interview_me_skill_phase_2_the_socratic_interview_loop",
+			"label": "Phase 2: The Socratic Interview Loop",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".agents/skills/interview-me/SKILL.md",
+			"source_location": "L43"
+		},
+		{
+			"id": "$graphify-root$_agents_skills_interview_me_skill_phase_3_trade_offs_decisions_log",
+			"label": "Phase 3: Trade-offs & Decisions Log",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".agents/skills/interview-me/SKILL.md",
+			"source_location": "L53"
+		},
+		{
+			"id": "$graphify-root$_agents_skills_interview_me_skill_phase_4_production_grade_specification_generation",
+			"label": "Phase 4: Production-Grade Specification Generation",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".agents/skills/interview-me/SKILL.md",
+			"source_location": "L58"
+		},
+		{
+			"id": "$graphify-root$_agents_skills_interview_me_skill_phase_5_architecture_diagrams_mermaid",
+			"label": "Phase 5: Architecture Diagrams (Mermaid)",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".agents/skills/interview-me/SKILL.md",
+			"source_location": "L72"
+		},
+		{
+			"id": "$graphify-root$_agents_skills_interview_me_skill_phase_6_drift_verification_verify",
+			"label": "Phase 6: Drift Verification (`--verify`)",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".agents/skills/interview-me/SKILL.md",
+			"source_location": "L78"
+		},
+		{
+			"id": "$graphify-root$_agents_skills_interview_me_skill_supporting_resources",
+			"label": "Supporting Resources",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".agents/skills/interview-me/SKILL.md",
+			"source_location": "L90"
+		}
+	],
+	"edges": [
+		{
+			"source": "$graphify-root$_agents_skills_interview_me_skill_md",
+			"target": "$graphify-root$_agents_skills_interview_me_skill_interview_me",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".agents/skills/interview-me/SKILL.md",
+			"source_location": "L6",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_agents_skills_interview_me_skill_interview_me",
+			"target": "$graphify-root$_agents_skills_interview_me_skill_when_to_use",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".agents/skills/interview-me/SKILL.md",
+			"source_location": "L14",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_agents_skills_interview_me_skill_interview_me",
+			"target": "$graphify-root$_agents_skills_interview_me_skill_commands_usage",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".agents/skills/interview-me/SKILL.md",
+			"source_location": "L23",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_agents_skills_interview_me_skill_interview_me",
+			"target": "$graphify-root$_agents_skills_interview_me_skill_the_6_phase_spec_interview_workflow",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".agents/skills/interview-me/SKILL.md",
+			"source_location": "L36",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_agents_skills_interview_me_skill_the_6_phase_spec_interview_workflow",
+			"target": "$graphify-root$_agents_skills_interview_me_skill_phase_1_intake_context_discovery",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".agents/skills/interview-me/SKILL.md",
+			"source_location": "L38",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_agents_skills_interview_me_skill_the_6_phase_spec_interview_workflow",
+			"target": "$graphify-root$_agents_skills_interview_me_skill_phase_2_the_socratic_interview_loop",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".agents/skills/interview-me/SKILL.md",
+			"source_location": "L43",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_agents_skills_interview_me_skill_the_6_phase_spec_interview_workflow",
+			"target": "$graphify-root$_agents_skills_interview_me_skill_phase_3_trade_offs_decisions_log",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".agents/skills/interview-me/SKILL.md",
+			"source_location": "L53",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_agents_skills_interview_me_skill_the_6_phase_spec_interview_workflow",
+			"target": "$graphify-root$_agents_skills_interview_me_skill_phase_4_production_grade_specification_generation",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".agents/skills/interview-me/SKILL.md",
+			"source_location": "L58",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_agents_skills_interview_me_skill_the_6_phase_spec_interview_workflow",
+			"target": "$graphify-root$_agents_skills_interview_me_skill_phase_5_architecture_diagrams_mermaid",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".agents/skills/interview-me/SKILL.md",
+			"source_location": "L72",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_agents_skills_interview_me_skill_the_6_phase_spec_interview_workflow",
+			"target": "$graphify-root$_agents_skills_interview_me_skill_phase_6_drift_verification_verify",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".agents/skills/interview-me/SKILL.md",
+			"source_location": "L78",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_agents_skills_interview_me_skill_interview_me",
+			"target": "$graphify-root$_agents_skills_interview_me_skill_supporting_resources",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".agents/skills/interview-me/SKILL.md",
+			"source_location": "L90",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_agents_skills_interview_me_skill_md",
+			"target": "$graphify-root$_agents_skills_interview_me_style_presets_md",
+			"relation": "references",
+			"confidence": "EXTRACTED",
+			"source_file": ".agents/skills/interview-me/SKILL.md",
+			"source_location": "L92",
+			"weight": 1.0,
+			"target_file": "$graphify-root$/.agents/skills/interview-me/STYLE_PRESETS.md"
+		},
+		{
+			"source": "$graphify-root$_agents_skills_interview_me_skill_md",
+			"target": "$graphify-root$_agents_skills_interview_me_verify_md",
+			"relation": "references",
+			"confidence": "EXTRACTED",
+			"source_file": ".agents/skills/interview-me/SKILL.md",
+			"source_location": "L93",
+			"weight": 1.0,
+			"target_file": "$graphify-root$/.agents/skills/interview-me/VERIFY.md"
+		}
+	],
+	"raw_calls": [
+		{
+			"caller_nid": "$graphify-root$_agents_skills_interview_me_skill_phase_2_the_socratic_interview_loop",
+			"callee": "ponytail",
+			"is_member_call": false,
+			"language": "markdown",
+			"context": "ponytail",
+			"source_file": ".agents/skills/interview-me/SKILL.md",
+			"source_location": "L47"
+		},
+		{
+			"caller_nid": "$graphify-root$_agents_skills_interview_me_skill_phase_5_architecture_diagrams_mermaid",
+			"callee": "pending",
+			"is_member_call": false,
+			"language": "markdown",
+			"context": "pending",
+			"source_file": ".agents/skills/interview-me/SKILL.md",
+			"source_location": "L76"
+		},
+		{
+			"caller_nid": "$graphify-root$_agents_skills_interview_me_skill_phase_5_architecture_diagrams_mermaid",
+			"callee": "paid",
+			"is_member_call": false,
+			"language": "markdown",
+			"context": "paid",
+			"source_file": ".agents/skills/interview-me/SKILL.md",
+			"source_location": "L76"
+		},
+		{
+			"caller_nid": "$graphify-root$_agents_skills_interview_me_skill_phase_5_architecture_diagrams_mermaid",
+			"callee": "shipped",
+			"is_member_call": false,
+			"language": "markdown",
+			"context": "shipped",
+			"source_file": ".agents/skills/interview-me/SKILL.md",
+			"source_location": "L76"
+		}
+	],
+	"input_tokens": 0,
+	"output_tokens": 0,
+	"_cached_target_files": [
+		"$graphify-root$/.agents/skills/interview-me/STYLE_PRESETS.md",
+		"$graphify-root$/.agents/skills/interview-me/VERIFY.md"
+	]
+}

@@ -1,4 +1,5 @@
 ---
+
 name: ponytail
 description: "Review or enforce minimal code patterns, YAGNI, and anti-bloat guidelines using the ponytail skill."
 ---

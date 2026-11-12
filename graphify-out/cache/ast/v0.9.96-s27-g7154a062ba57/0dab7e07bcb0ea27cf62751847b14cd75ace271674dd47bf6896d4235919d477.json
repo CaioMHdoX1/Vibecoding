@@ -1,1 +1,676 @@
-{"nodes": [{"id": "$graphify-root$_prompt_md", "label": "PROMPT.md", "file_type": "document", "node_kind": "page", "source_file": "PROMPT.md", "source_location": "L1"}, {"id": "$graphify-root$_prompt_prompt_inicial_e_commerce_de_bonsai_desenvolvido_100_com_ia", "label": "Prompt inicial: E-commerce de Bonsai desenvolvido 100% com IA", "file_type": "document", "node_kind": "heading", "source_file": "PROMPT.md", "source_location": "L1"}, {"id": "$graphify-root$_prompt_1_papel_e_contexto", "label": "1. Papel e contexto", "file_type": "document", "node_kind": "heading", "source_file": "PROMPT.md", "source_location": "L8"}, {"id": "$graphify-root$_prompt_2_regras_inegoci\u00e1veis", "label": "2. Regras inegoci\u00e1veis", "file_type": "document", "node_kind": "heading", "source_file": "PROMPT.md", "source_location": "L20"}, {"id": "$graphify-root$_prompt_3_stack_decidida", "label": "3. Stack decidida", "file_type": "document", "node_kind": "heading", "source_file": "PROMPT.md", "source_location": "L32"}, {"id": "$graphify-root$_prompt_estrutura_do_reposit\u00f3rio", "label": "Estrutura do reposit\u00f3rio", "file_type": "document", "node_kind": "heading", "source_file": "PROMPT.md", "source_location": "L51"}, {"id": "$graphify-root$_prompt_4_escopo_funcional", "label": "4. Escopo funcional", "file_type": "document", "node_kind": "heading", "source_file": "PROMPT.md", "source_location": "L78"}, {"id": "$graphify-root$_prompt_4_1_loja_p\u00fablico_e_cliente", "label": "4.1 Loja (p\u00fablico e cliente)", "file_type": "document", "node_kind": "heading", "source_file": "PROMPT.md", "source_location": "L80"}, {"id": "$graphify-root$_prompt_4_2_cliente", "label": "4.2 Cliente", "file_type": "document", "node_kind": "heading", "source_file": "PROMPT.md", "source_location": "L89"}, {"id": "$graphify-root$_prompt_4_3_checkout_tudo_simulado", "label": "4.3 Checkout (tudo simulado)", "file_type": "document", "node_kind": "heading", "source_file": "PROMPT.md", "source_location": "L92"}, {"id": "$graphify-root$_prompt_4_4_painel_administrativo", "label": "4.4 Painel administrativo", "file_type": "document", "node_kind": "heading", "source_file": "PROMPT.md", "source_location": "L98"}, {"id": "$graphify-root$_prompt_4_5_rastreamento_pixel_simulado", "label": "4.5 Rastreamento (pixel simulado)", "file_type": "document", "node_kind": "heading", "source_file": "PROMPT.md", "source_location": "L102"}, {"id": "$graphify-root$_prompt_4_6_interface", "label": "4.6 Interface", "file_type": "document", "node_kind": "heading", "source_file": "PROMPT.md", "source_location": "L105"}, {"id": "$graphify-root$_prompt_5_modelo_de_dados_preliminar_prisma", "label": "5. Modelo de dados preliminar (Prisma)", "file_type": "document", "node_kind": "heading", "source_file": "PROMPT.md", "source_location": "L110"}, {"id": "$graphify-root$_prompt_6_identidade_visual_e_design", "label": "6. Identidade visual e design", "file_type": "document", "node_kind": "heading", "source_file": "PROMPT.md", "source_location": "L131"}, {"id": "$graphify-root$_prompt_7_padr\u00f5es_de_c\u00f3digo", "label": "7. Padr\u00f5es de c\u00f3digo", "file_type": "document", "node_kind": "heading", "source_file": "PROMPT.md", "source_location": "L145"}, {"id": "$graphify-root$_prompt_8_qualidade_e_testes", "label": "8. Qualidade e testes", "file_type": "document", "node_kind": "heading", "source_file": "PROMPT.md", "source_location": "L160"}, {"id": "$graphify-root$_prompt_9_skills_e_ferramentas_de_apoio", "label": "9. Skills e ferramentas de apoio", "file_type": "document", "node_kind": "heading", "source_file": "PROMPT.md", "source_location": "L169"}, {"id": "$graphify-root$_prompt_uso_das_ias_por_fun\u00e7\u00e3o_sugest\u00e3o_inicial_ajust\u00e1vel_pelo_time", "label": "Uso das IAs por fun\u00e7\u00e3o (sugest\u00e3o inicial, ajust\u00e1vel pelo time)", "file_type": "document", "node_kind": "heading", "source_file": "PROMPT.md", "source_location": "L175"}, {"id": "$graphify-root$_prompt_10_fluxo_de_cada_tarefa", "label": "10. Fluxo de cada tarefa", "file_type": "document", "node_kind": "heading", "source_file": "PROMPT.md", "source_location": "L188"}, {"id": "$graphify-root$_prompt_template_do_pull_request_github_pull_request_template_md", "label": "Template do Pull Request (`.github/pull_request_template.md`)", "file_type": "document", "node_kind": "heading", "source_file": "PROMPT.md", "source_location": "L200"}, {"id": "$graphify-root$_prompt_registro_no_ai_log", "label": "Registro no `ai-log`", "file_type": "document", "node_kind": "heading", "source_file": "PROMPT.md", "source_location": "L204"}, {"id": "$graphify-root$_prompt_11_cronograma_e_prioridades", "label": "11. Cronograma e prioridades", "file_type": "document", "node_kind": "heading", "source_file": "PROMPT.md", "source_location": "L210"}, {"id": "$graphify-root$_prompt_divis\u00e3o_do_trabalho_por_camada", "label": "Divis\u00e3o do trabalho (por camada)", "file_type": "document", "node_kind": "heading", "source_file": "PROMPT.md", "source_location": "L226"}, {"id": "$graphify-root$_prompt_12_crit\u00e9rios_de_pronto", "label": "12. Crit\u00e9rios de pronto", "file_type": "document", "node_kind": "heading", "source_file": "PROMPT.md", "source_location": "L233"}, {"id": "$graphify-root$_prompt_13_fora_do_escopo", "label": "13. Fora do escopo", "file_type": "document", "node_kind": "heading", "source_file": "PROMPT.md", "source_location": "L241"}, {"id": "$graphify-root$_prompt_14_sua_primeira_tarefa_etapa_0", "label": "14. Sua primeira tarefa (Etapa 0)", "file_type": "document", "node_kind": "heading", "source_file": "PROMPT.md", "source_location": "L247"}], "edges": [{"source": "$graphify-root$_prompt_md", "target": "$graphify-root$_prompt_prompt_inicial_e_commerce_de_bonsai_desenvolvido_100_com_ia", "relation": "contains", "confidence": "EXTRACTED", "source_file": "PROMPT.md", "source_location": "L1", "weight": 1.0}, {"source": "$graphify-root$_prompt_prompt_inicial_e_commerce_de_bonsai_desenvolvido_100_com_ia", "target": "$graphify-root$_prompt_1_papel_e_contexto", "relation": "contains", "confidence": "EXTRACTED", "source_file": "PROMPT.md", "source_location": "L8", "weight": 1.0}, {"source": "$graphify-root$_prompt_prompt_inicial_e_commerce_de_bonsai_desenvolvido_100_com_ia", "target": "$graphify-root$_prompt_2_regras_inegoci\u00e1veis", "relation": "contains", "confidence": "EXTRACTED", "source_file": "PROMPT.md", "source_location": "L20", "weight": 1.0}, {"source": "$graphify-root$_prompt_prompt_inicial_e_commerce_de_bonsai_desenvolvido_100_com_ia", "target": "$graphify-root$_prompt_3_stack_decidida", "relation": "contains", "confidence": "EXTRACTED", "source_file": "PROMPT.md", "source_location": "L32", "weight": 1.0}, {"source": "$graphify-root$_prompt_3_stack_decidida", "target": "$graphify-root$_prompt_estrutura_do_reposit\u00f3rio", "relation": "contains", "confidence": "EXTRACTED", "source_file": "PROMPT.md", "source_location": "L51", "weight": 1.0}, {"source": "$graphify-root$_prompt_prompt_inicial_e_commerce_de_bonsai_desenvolvido_100_com_ia", "target": "$graphify-root$_prompt_4_escopo_funcional", "relation": "contains", "confidence": "EXTRACTED", "source_file": "PROMPT.md", "source_location": "L78", "weight": 1.0}, {"source": "$graphify-root$_prompt_4_escopo_funcional", "target": "$graphify-root$_prompt_4_1_loja_p\u00fablico_e_cliente", "relation": "contains", "confidence": "EXTRACTED", "source_file": "PROMPT.md", "source_location": "L80", "weight": 1.0}, {"source": "$graphify-root$_prompt_4_escopo_funcional", "target": "$graphify-root$_prompt_4_2_cliente", "relation": "contains", "confidence": "EXTRACTED", "source_file": "PROMPT.md", "source_location": "L89", "weight": 1.0}, {"source": "$graphify-root$_prompt_4_escopo_funcional", "target": "$graphify-root$_prompt_4_3_checkout_tudo_simulado", "relation": "contains", "confidence": "EXTRACTED", "source_file": "PROMPT.md", "source_location": "L92", "weight": 1.0}, {"source": "$graphify-root$_prompt_4_escopo_funcional", "target": "$graphify-root$_prompt_4_4_painel_administrativo", "relation": "contains", "confidence": "EXTRACTED", "source_file": "PROMPT.md", "source_location": "L98", "weight": 1.0}, {"source": "$graphify-root$_prompt_4_escopo_funcional", "target": "$graphify-root$_prompt_4_5_rastreamento_pixel_simulado", "relation": "contains", "confidence": "EXTRACTED", "source_file": "PROMPT.md", "source_location": "L102", "weight": 1.0}, {"source": "$graphify-root$_prompt_4_escopo_funcional", "target": "$graphify-root$_prompt_4_6_interface", "relation": "contains", "confidence": "EXTRACTED", "source_file": "PROMPT.md", "source_location": "L105", "weight": 1.0}, {"source": "$graphify-root$_prompt_prompt_inicial_e_commerce_de_bonsai_desenvolvido_100_com_ia", "target": "$graphify-root$_prompt_5_modelo_de_dados_preliminar_prisma", "relation": "contains", "confidence": "EXTRACTED", "source_file": "PROMPT.md", "source_location": "L110", "weight": 1.0}, {"source": "$graphify-root$_prompt_prompt_inicial_e_commerce_de_bonsai_desenvolvido_100_com_ia", "target": "$graphify-root$_prompt_6_identidade_visual_e_design", "relation": "contains", "confidence": "EXTRACTED", "source_file": "PROMPT.md", "source_location": "L131", "weight": 1.0}, {"source": "$graphify-root$_prompt_prompt_inicial_e_commerce_de_bonsai_desenvolvido_100_com_ia", "target": "$graphify-root$_prompt_7_padr\u00f5es_de_c\u00f3digo", "relation": "contains", "confidence": "EXTRACTED", "source_file": "PROMPT.md", "source_location": "L145", "weight": 1.0}, {"source": "$graphify-root$_prompt_prompt_inicial_e_commerce_de_bonsai_desenvolvido_100_com_ia", "target": "$graphify-root$_prompt_8_qualidade_e_testes", "relation": "contains", "confidence": "EXTRACTED", "source_file": "PROMPT.md", "source_location": "L160", "weight": 1.0}, {"source": "$graphify-root$_prompt_prompt_inicial_e_commerce_de_bonsai_desenvolvido_100_com_ia", "target": "$graphify-root$_prompt_9_skills_e_ferramentas_de_apoio", "relation": "contains", "confidence": "EXTRACTED", "source_file": "PROMPT.md", "source_location": "L169", "weight": 1.0}, {"source": "$graphify-root$_prompt_9_skills_e_ferramentas_de_apoio", "target": "$graphify-root$_prompt_uso_das_ias_por_fun\u00e7\u00e3o_sugest\u00e3o_inicial_ajust\u00e1vel_pelo_time", "relation": "contains", "confidence": "EXTRACTED", "source_file": "PROMPT.md", "source_location": "L175", "weight": 1.0}, {"source": "$graphify-root$_prompt_prompt_inicial_e_commerce_de_bonsai_desenvolvido_100_com_ia", "target": "$graphify-root$_prompt_10_fluxo_de_cada_tarefa", "relation": "contains", "confidence": "EXTRACTED", "source_file": "PROMPT.md", "source_location": "L188", "weight": 1.0}, {"source": "$graphify-root$_prompt_10_fluxo_de_cada_tarefa", "target": "$graphify-root$_prompt_template_do_pull_request_github_pull_request_template_md", "relation": "contains", "confidence": "EXTRACTED", "source_file": "PROMPT.md", "source_location": "L200", "weight": 1.0}, {"source": "$graphify-root$_prompt_10_fluxo_de_cada_tarefa", "target": "$graphify-root$_prompt_registro_no_ai_log", "relation": "contains", "confidence": "EXTRACTED", "source_file": "PROMPT.md", "source_location": "L204", "weight": 1.0}, {"source": "$graphify-root$_prompt_prompt_inicial_e_commerce_de_bonsai_desenvolvido_100_com_ia", "target": "$graphify-root$_prompt_11_cronograma_e_prioridades", "relation": "contains", "confidence": "EXTRACTED", "source_file": "PROMPT.md", "source_location": "L210", "weight": 1.0}, {"source": "$graphify-root$_prompt_11_cronograma_e_prioridades", "target": "$graphify-root$_prompt_divis\u00e3o_do_trabalho_por_camada", "relation": "contains", "confidence": "EXTRACTED", "source_file": "PROMPT.md", "source_location": "L226", "weight": 1.0}, {"source": "$graphify-root$_prompt_prompt_inicial_e_commerce_de_bonsai_desenvolvido_100_com_ia", "target": "$graphify-root$_prompt_12_crit\u00e9rios_de_pronto", "relation": "contains", "confidence": "EXTRACTED", "source_file": "PROMPT.md", "source_location": "L233", "weight": 1.0}, {"source": "$graphify-root$_prompt_prompt_inicial_e_commerce_de_bonsai_desenvolvido_100_com_ia", "target": "$graphify-root$_prompt_13_fora_do_escopo", "relation": "contains", "confidence": "EXTRACTED", "source_file": "PROMPT.md", "source_location": "L241", "weight": 1.0}, {"source": "$graphify-root$_prompt_prompt_inicial_e_commerce_de_bonsai_desenvolvido_100_com_ia", "target": "$graphify-root$_prompt_14_sua_primeira_tarefa_etapa_0", "relation": "contains", "confidence": "EXTRACTED", "source_file": "PROMPT.md", "source_location": "L247", "weight": 1.0}], "raw_calls": [{"caller_nid": "$graphify-root$_prompt_2_regras_inegoci\u00e1veis", "callee": "main", "is_member_call": false, "language": "markdown", "context": "main", "source_file": "PROMPT.md", "source_location": "L23"}, {"caller_nid": "$graphify-root$_prompt_3_stack_decidida", "callee": "strict", "is_member_call": false, "language": "markdown", "context": "strict", "source_file": "PROMPT.md", "source_location": "L36"}, {"caller_nid": "$graphify-root$_prompt_3_stack_decidida", "callee": "httpOnly", "is_member_call": false, "language": "markdown", "context": "httpOnly", "source_file": "PROMPT.md", "source_location": "L41"}, {"caller_nid": "$graphify-root$_prompt_3_stack_decidida", "callee": "CUSTOMER", "is_member_call": false, "language": "markdown", "context": "CUSTOMER", "source_file": "PROMPT.md", "source_location": "L41"}, {"caller_nid": "$graphify-root$_prompt_3_stack_decidida", "callee": "MANAGER", "is_member_call": false, "language": "markdown", "context": "MANAGER", "source_file": "PROMPT.md", "source_location": "L41"}, {"caller_nid": "$graphify-root$_prompt_3_stack_decidida", "callee": "ADMIN", "is_member_call": false, "language": "markdown", "context": "ADMIN", "source_file": "PROMPT.md", "source_location": "L41"}, {"caller_nid": "$graphify-root$_prompt_4_5_rastreamento_pixel_simulado", "callee": "page_view", "is_member_call": false, "language": "markdown", "context": "page_view", "source_file": "PROMPT.md", "source_location": "L103"}, {"caller_nid": "$graphify-root$_prompt_4_5_rastreamento_pixel_simulado", "callee": "view_item", "is_member_call": false, "language": "markdown", "context": "view_item", "source_file": "PROMPT.md", "source_location": "L103"}, {"caller_nid": "$graphify-root$_prompt_4_5_rastreamento_pixel_simulado", "callee": "add_to_cart", "is_member_call": false, "language": "markdown", "context": "add_to_cart", "source_file": "PROMPT.md", "source_location": "L103"}, {"caller_nid": "$graphify-root$_prompt_4_5_rastreamento_pixel_simulado", "callee": "begin_checkout", "is_member_call": false, "language": "markdown", "context": "begin_checkout", "source_file": "PROMPT.md", "source_location": "L103"}, {"caller_nid": "$graphify-root$_prompt_4_5_rastreamento_pixel_simulado", "callee": "purchase", "is_member_call": false, "language": "markdown", "context": "purchase", "source_file": "PROMPT.md", "source_location": "L103"}, {"caller_nid": "$graphify-root$_prompt_5_modelo_de_dados_preliminar_prisma", "callee": "CUSTOMER", "is_member_call": false, "language": "markdown", "context": "CUSTOMER", "source_file": "PROMPT.md", "source_location": "L114"}, {"caller_nid": "$graphify-root$_prompt_5_modelo_de_dados_preliminar_prisma", "callee": "MANAGER", "is_member_call": false, "language": "markdown", "context": "MANAGER", "source_file": "PROMPT.md", "source_location": "L114"}, {"caller_nid": "$graphify-root$_prompt_5_modelo_de_dados_preliminar_prisma", "callee": "ADMIN", "is_member_call": false, "language": "markdown", "context": "ADMIN", "source_file": "PROMPT.md", "source_location": "L114"}, {"caller_nid": "$graphify-root$_prompt_5_modelo_de_dados_preliminar_prisma", "callee": "PIX", "is_member_call": false, "language": "markdown", "context": "PIX", "source_file": "PROMPT.md", "source_location": "L122"}, {"caller_nid": "$graphify-root$_prompt_5_modelo_de_dados_preliminar_prisma", "callee": "CARD", "is_member_call": false, "language": "markdown", "context": "CARD", "source_file": "PROMPT.md", "source_location": "L122"}, {"caller_nid": "$graphify-root$_prompt_5_modelo_de_dados_preliminar_prisma", "callee": "BOLETO", "is_member_call": false, "language": "markdown", "context": "BOLETO", "source_file": "PROMPT.md", "source_location": "L122"}, {"caller_nid": "$graphify-root$_prompt_5_modelo_de_dados_preliminar_prisma", "callee": "APPROVED", "is_member_call": false, "language": "markdown", "context": "APPROVED", "source_file": "PROMPT.md", "source_location": "L122"}, {"caller_nid": "$graphify-root$_prompt_5_modelo_de_dados_preliminar_prisma", "callee": "DECLINED", "is_member_call": false, "language": "markdown", "context": "DECLINED", "source_file": "PROMPT.md", "source_location": "L122"}, {"caller_nid": "$graphify-root$_prompt_5_modelo_de_dados_preliminar_prisma", "callee": "PENDING", "is_member_call": false, "language": "markdown", "context": "PENDING", "source_file": "PROMPT.md", "source_location": "L122"}, {"caller_nid": "$graphify-root$_prompt_7_padr\u00f5es_de_c\u00f3digo", "callee": "strict", "is_member_call": false, "language": "markdown", "context": "strict", "source_file": "PROMPT.md", "source_location": "L150"}, {"caller_nid": "$graphify-root$_prompt_7_padr\u00f5es_de_c\u00f3digo", "callee": "any", "is_member_call": false, "language": "markdown", "context": "any", "source_file": "PROMPT.md", "source_location": "L150"}, {"caller_nid": "$graphify-root$_prompt_8_qualidade_e_testes", "callee": "main", "is_member_call": false, "language": "markdown", "context": "main", "source_file": "PROMPT.md", "source_location": "L164"}, {"caller_nid": "$graphify-root$_prompt_10_fluxo_de_cada_tarefa", "callee": "main", "is_member_call": false, "language": "markdown", "context": "main", "source_file": "PROMPT.md", "source_location": "L198"}], "input_tokens": 0, "output_tokens": 0}
+{
+	"nodes": [
+		{
+			"id": "$graphify-root$_prompt_md",
+			"label": "PROMPT.md",
+			"file_type": "document",
+			"node_kind": "page",
+			"source_file": "PROMPT.md",
+			"source_location": "L1"
+		},
+		{
+			"id": "$graphify-root$_prompt_prompt_inicial_e_commerce_de_bonsai_desenvolvido_100_com_ia",
+			"label": "Prompt inicial: E-commerce de Bonsai desenvolvido 100% com IA",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "PROMPT.md",
+			"source_location": "L1"
+		},
+		{
+			"id": "$graphify-root$_prompt_1_papel_e_contexto",
+			"label": "1. Papel e contexto",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "PROMPT.md",
+			"source_location": "L8"
+		},
+		{
+			"id": "$graphify-root$_prompt_2_regras_inegoci\u00e1veis",
+			"label": "2. Regras inegoci\u00e1veis",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "PROMPT.md",
+			"source_location": "L20"
+		},
+		{
+			"id": "$graphify-root$_prompt_3_stack_decidida",
+			"label": "3. Stack decidida",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "PROMPT.md",
+			"source_location": "L32"
+		},
+		{
+			"id": "$graphify-root$_prompt_estrutura_do_reposit\u00f3rio",
+			"label": "Estrutura do reposit\u00f3rio",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "PROMPT.md",
+			"source_location": "L51"
+		},
+		{
+			"id": "$graphify-root$_prompt_4_escopo_funcional",
+			"label": "4. Escopo funcional",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "PROMPT.md",
+			"source_location": "L78"
+		},
+		{
+			"id": "$graphify-root$_prompt_4_1_loja_p\u00fablico_e_cliente",
+			"label": "4.1 Loja (p\u00fablico e cliente)",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "PROMPT.md",
+			"source_location": "L80"
+		},
+		{
+			"id": "$graphify-root$_prompt_4_2_cliente",
+			"label": "4.2 Cliente",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "PROMPT.md",
+			"source_location": "L89"
+		},
+		{
+			"id": "$graphify-root$_prompt_4_3_checkout_tudo_simulado",
+			"label": "4.3 Checkout (tudo simulado)",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "PROMPT.md",
+			"source_location": "L92"
+		},
+		{
+			"id": "$graphify-root$_prompt_4_4_painel_administrativo",
+			"label": "4.4 Painel administrativo",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "PROMPT.md",
+			"source_location": "L98"
+		},
+		{
+			"id": "$graphify-root$_prompt_4_5_rastreamento_pixel_simulado",
+			"label": "4.5 Rastreamento (pixel simulado)",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "PROMPT.md",
+			"source_location": "L102"
+		},
+		{
+			"id": "$graphify-root$_prompt_4_6_interface",
+			"label": "4.6 Interface",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "PROMPT.md",
+			"source_location": "L105"
+		},
+		{
+			"id": "$graphify-root$_prompt_5_modelo_de_dados_preliminar_prisma",
+			"label": "5. Modelo de dados preliminar (Prisma)",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "PROMPT.md",
+			"source_location": "L110"
+		},
+		{
+			"id": "$graphify-root$_prompt_6_identidade_visual_e_design",
+			"label": "6. Identidade visual e design",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "PROMPT.md",
+			"source_location": "L131"
+		},
+		{
+			"id": "$graphify-root$_prompt_7_padr\u00f5es_de_c\u00f3digo",
+			"label": "7. Padr\u00f5es de c\u00f3digo",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "PROMPT.md",
+			"source_location": "L145"
+		},
+		{
+			"id": "$graphify-root$_prompt_8_qualidade_e_testes",
+			"label": "8. Qualidade e testes",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "PROMPT.md",
+			"source_location": "L160"
+		},
+		{
+			"id": "$graphify-root$_prompt_9_skills_e_ferramentas_de_apoio",
+			"label": "9. Skills e ferramentas de apoio",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "PROMPT.md",
+			"source_location": "L169"
+		},
+		{
+			"id": "$graphify-root$_prompt_uso_das_ias_por_fun\u00e7\u00e3o_sugest\u00e3o_inicial_ajust\u00e1vel_pelo_time",
+			"label": "Uso das IAs por fun\u00e7\u00e3o (sugest\u00e3o inicial, ajust\u00e1vel pelo time)",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "PROMPT.md",
+			"source_location": "L175"
+		},
+		{
+			"id": "$graphify-root$_prompt_10_fluxo_de_cada_tarefa",
+			"label": "10. Fluxo de cada tarefa",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "PROMPT.md",
+			"source_location": "L188"
+		},
+		{
+			"id": "$graphify-root$_prompt_template_do_pull_request_github_pull_request_template_md",
+			"label": "Template do Pull Request (`.github/pull_request_template.md`)",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "PROMPT.md",
+			"source_location": "L200"
+		},
+		{
+			"id": "$graphify-root$_prompt_registro_no_ai_log",
+			"label": "Registro no `ai-log`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "PROMPT.md",
+			"source_location": "L204"
+		},
+		{
+			"id": "$graphify-root$_prompt_11_cronograma_e_prioridades",
+			"label": "11. Cronograma e prioridades",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "PROMPT.md",
+			"source_location": "L210"
+		},
+		{
+			"id": "$graphify-root$_prompt_divis\u00e3o_do_trabalho_por_camada",
+			"label": "Divis\u00e3o do trabalho (por camada)",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "PROMPT.md",
+			"source_location": "L226"
+		},
+		{
+			"id": "$graphify-root$_prompt_12_crit\u00e9rios_de_pronto",
+			"label": "12. Crit\u00e9rios de pronto",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "PROMPT.md",
+			"source_location": "L233"
+		},
+		{
+			"id": "$graphify-root$_prompt_13_fora_do_escopo",
+			"label": "13. Fora do escopo",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "PROMPT.md",
+			"source_location": "L241"
+		},
+		{
+			"id": "$graphify-root$_prompt_14_sua_primeira_tarefa_etapa_0",
+			"label": "14. Sua primeira tarefa (Etapa 0)",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "PROMPT.md",
+			"source_location": "L247"
+		}
+	],
+	"edges": [
+		{
+			"source": "$graphify-root$_prompt_md",
+			"target": "$graphify-root$_prompt_prompt_inicial_e_commerce_de_bonsai_desenvolvido_100_com_ia",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "PROMPT.md",
+			"source_location": "L1",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_prompt_prompt_inicial_e_commerce_de_bonsai_desenvolvido_100_com_ia",
+			"target": "$graphify-root$_prompt_1_papel_e_contexto",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "PROMPT.md",
+			"source_location": "L8",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_prompt_prompt_inicial_e_commerce_de_bonsai_desenvolvido_100_com_ia",
+			"target": "$graphify-root$_prompt_2_regras_inegoci\u00e1veis",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "PROMPT.md",
+			"source_location": "L20",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_prompt_prompt_inicial_e_commerce_de_bonsai_desenvolvido_100_com_ia",
+			"target": "$graphify-root$_prompt_3_stack_decidida",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "PROMPT.md",
+			"source_location": "L32",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_prompt_3_stack_decidida",
+			"target": "$graphify-root$_prompt_estrutura_do_reposit\u00f3rio",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "PROMPT.md",
+			"source_location": "L51",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_prompt_prompt_inicial_e_commerce_de_bonsai_desenvolvido_100_com_ia",
+			"target": "$graphify-root$_prompt_4_escopo_funcional",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "PROMPT.md",
+			"source_location": "L78",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_prompt_4_escopo_funcional",
+			"target": "$graphify-root$_prompt_4_1_loja_p\u00fablico_e_cliente",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "PROMPT.md",
+			"source_location": "L80",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_prompt_4_escopo_funcional",
+			"target": "$graphify-root$_prompt_4_2_cliente",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "PROMPT.md",
+			"source_location": "L89",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_prompt_4_escopo_funcional",
+			"target": "$graphify-root$_prompt_4_3_checkout_tudo_simulado",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "PROMPT.md",
+			"source_location": "L92",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_prompt_4_escopo_funcional",
+			"target": "$graphify-root$_prompt_4_4_painel_administrativo",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "PROMPT.md",
+			"source_location": "L98",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_prompt_4_escopo_funcional",
+			"target": "$graphify-root$_prompt_4_5_rastreamento_pixel_simulado",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "PROMPT.md",
+			"source_location": "L102",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_prompt_4_escopo_funcional",
+			"target": "$graphify-root$_prompt_4_6_interface",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "PROMPT.md",
+			"source_location": "L105",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_prompt_prompt_inicial_e_commerce_de_bonsai_desenvolvido_100_com_ia",
+			"target": "$graphify-root$_prompt_5_modelo_de_dados_preliminar_prisma",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "PROMPT.md",
+			"source_location": "L110",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_prompt_prompt_inicial_e_commerce_de_bonsai_desenvolvido_100_com_ia",
+			"target": "$graphify-root$_prompt_6_identidade_visual_e_design",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "PROMPT.md",
+			"source_location": "L131",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_prompt_prompt_inicial_e_commerce_de_bonsai_desenvolvido_100_com_ia",
+			"target": "$graphify-root$_prompt_7_padr\u00f5es_de_c\u00f3digo",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "PROMPT.md",
+			"source_location": "L145",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_prompt_prompt_inicial_e_commerce_de_bonsai_desenvolvido_100_com_ia",
+			"target": "$graphify-root$_prompt_8_qualidade_e_testes",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "PROMPT.md",
+			"source_location": "L160",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_prompt_prompt_inicial_e_commerce_de_bonsai_desenvolvido_100_com_ia",
+			"target": "$graphify-root$_prompt_9_skills_e_ferramentas_de_apoio",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "PROMPT.md",
+			"source_location": "L169",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_prompt_9_skills_e_ferramentas_de_apoio",
+			"target": "$graphify-root$_prompt_uso_das_ias_por_fun\u00e7\u00e3o_sugest\u00e3o_inicial_ajust\u00e1vel_pelo_time",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "PROMPT.md",
+			"source_location": "L175",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_prompt_prompt_inicial_e_commerce_de_bonsai_desenvolvido_100_com_ia",
+			"target": "$graphify-root$_prompt_10_fluxo_de_cada_tarefa",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "PROMPT.md",
+			"source_location": "L188",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_prompt_10_fluxo_de_cada_tarefa",
+			"target": "$graphify-root$_prompt_template_do_pull_request_github_pull_request_template_md",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "PROMPT.md",
+			"source_location": "L200",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_prompt_10_fluxo_de_cada_tarefa",
+			"target": "$graphify-root$_prompt_registro_no_ai_log",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "PROMPT.md",
+			"source_location": "L204",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_prompt_prompt_inicial_e_commerce_de_bonsai_desenvolvido_100_com_ia",
+			"target": "$graphify-root$_prompt_11_cronograma_e_prioridades",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "PROMPT.md",
+			"source_location": "L210",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_prompt_11_cronograma_e_prioridades",
+			"target": "$graphify-root$_prompt_divis\u00e3o_do_trabalho_por_camada",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "PROMPT.md",
+			"source_location": "L226",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_prompt_prompt_inicial_e_commerce_de_bonsai_desenvolvido_100_com_ia",
+			"target": "$graphify-root$_prompt_12_crit\u00e9rios_de_pronto",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "PROMPT.md",
+			"source_location": "L233",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_prompt_prompt_inicial_e_commerce_de_bonsai_desenvolvido_100_com_ia",
+			"target": "$graphify-root$_prompt_13_fora_do_escopo",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "PROMPT.md",
+			"source_location": "L241",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_prompt_prompt_inicial_e_commerce_de_bonsai_desenvolvido_100_com_ia",
+			"target": "$graphify-root$_prompt_14_sua_primeira_tarefa_etapa_0",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "PROMPT.md",
+			"source_location": "L247",
+			"weight": 1.0
+		}
+	],
+	"raw_calls": [
+		{
+			"caller_nid": "$graphify-root$_prompt_2_regras_inegoci\u00e1veis",
+			"callee": "main",
+			"is_member_call": false,
+			"language": "markdown",
+			"context": "main",
+			"source_file": "PROMPT.md",
+			"source_location": "L23"
+		},
+		{
+			"caller_nid": "$graphify-root$_prompt_3_stack_decidida",
+			"callee": "strict",
+			"is_member_call": false,
+			"language": "markdown",
+			"context": "strict",
+			"source_file": "PROMPT.md",
+			"source_location": "L36"
+		},
+		{
+			"caller_nid": "$graphify-root$_prompt_3_stack_decidida",
+			"callee": "httpOnly",
+			"is_member_call": false,
+			"language": "markdown",
+			"context": "httpOnly",
+			"source_file": "PROMPT.md",
+			"source_location": "L41"
+		},
+		{
+			"caller_nid": "$graphify-root$_prompt_3_stack_decidida",
+			"callee": "CUSTOMER",
+			"is_member_call": false,
+			"language": "markdown",
+			"context": "CUSTOMER",
+			"source_file": "PROMPT.md",
+			"source_location": "L41"
+		},
+		{
+			"caller_nid": "$graphify-root$_prompt_3_stack_decidida",
+			"callee": "MANAGER",
+			"is_member_call": false,
+			"language": "markdown",
+			"context": "MANAGER",
+			"source_file": "PROMPT.md",
+			"source_location": "L41"
+		},
+		{
+			"caller_nid": "$graphify-root$_prompt_3_stack_decidida",
+			"callee": "ADMIN",
+			"is_member_call": false,
+			"language": "markdown",
+			"context": "ADMIN",
+			"source_file": "PROMPT.md",
+			"source_location": "L41"
+		},
+		{
+			"caller_nid": "$graphify-root$_prompt_4_5_rastreamento_pixel_simulado",
+			"callee": "page_view",
+			"is_member_call": false,
+			"language": "markdown",
+			"context": "page_view",
+			"source_file": "PROMPT.md",
+			"source_location": "L103"
+		},
+		{
+			"caller_nid": "$graphify-root$_prompt_4_5_rastreamento_pixel_simulado",
+			"callee": "view_item",
+			"is_member_call": false,
+			"language": "markdown",
+			"context": "view_item",
+			"source_file": "PROMPT.md",
+			"source_location": "L103"
+		},
+		{
+			"caller_nid": "$graphify-root$_prompt_4_5_rastreamento_pixel_simulado",
+			"callee": "add_to_cart",
+			"is_member_call": false,
+			"language": "markdown",
+			"context": "add_to_cart",
+			"source_file": "PROMPT.md",
+			"source_location": "L103"
+		},
+		{
+			"caller_nid": "$graphify-root$_prompt_4_5_rastreamento_pixel_simulado",
+			"callee": "begin_checkout",
+			"is_member_call": false,
+			"language": "markdown",
+			"context": "begin_checkout",
+			"source_file": "PROMPT.md",
+			"source_location": "L103"
+		},
+		{
+			"caller_nid": "$graphify-root$_prompt_4_5_rastreamento_pixel_simulado",
+			"callee": "purchase",
+			"is_member_call": false,
+			"language": "markdown",
+			"context": "purchase",
+			"source_file": "PROMPT.md",
+			"source_location": "L103"
+		},
+		{
+			"caller_nid": "$graphify-root$_prompt_5_modelo_de_dados_preliminar_prisma",
+			"callee": "CUSTOMER",
+			"is_member_call": false,
+			"language": "markdown",
+			"context": "CUSTOMER",
+			"source_file": "PROMPT.md",
+			"source_location": "L114"
+		},
+		{
+			"caller_nid": "$graphify-root$_prompt_5_modelo_de_dados_preliminar_prisma",
+			"callee": "MANAGER",
+			"is_member_call": false,
+			"language": "markdown",
+			"context": "MANAGER",
+			"source_file": "PROMPT.md",
+			"source_location": "L114"
+		},
+		{
+			"caller_nid": "$graphify-root$_prompt_5_modelo_de_dados_preliminar_prisma",
+			"callee": "ADMIN",
+			"is_member_call": false,
+			"language": "markdown",
+			"context": "ADMIN",
+			"source_file": "PROMPT.md",
+			"source_location": "L114"
+		},
+		{
+			"caller_nid": "$graphify-root$_prompt_5_modelo_de_dados_preliminar_prisma",
+			"callee": "PIX",
+			"is_member_call": false,
+			"language": "markdown",
+			"context": "PIX",
+			"source_file": "PROMPT.md",
+			"source_location": "L122"
+		},
+		{
+			"caller_nid": "$graphify-root$_prompt_5_modelo_de_dados_preliminar_prisma",
+			"callee": "CARD",
+			"is_member_call": false,
+			"language": "markdown",
+			"context": "CARD",
+			"source_file": "PROMPT.md",
+			"source_location": "L122"
+		},
+		{
+			"caller_nid": "$graphify-root$_prompt_5_modelo_de_dados_preliminar_prisma",
+			"callee": "BOLETO",
+			"is_member_call": false,
+			"language": "markdown",
+			"context": "BOLETO",
+			"source_file": "PROMPT.md",
+			"source_location": "L122"
+		},
+		{
+			"caller_nid": "$graphify-root$_prompt_5_modelo_de_dados_preliminar_prisma",
+			"callee": "APPROVED",
+			"is_member_call": false,
+			"language": "markdown",
+			"context": "APPROVED",
+			"source_file": "PROMPT.md",
+			"source_location": "L122"
+		},
+		{
+			"caller_nid": "$graphify-root$_prompt_5_modelo_de_dados_preliminar_prisma",
+			"callee": "DECLINED",
+			"is_member_call": false,
+			"language": "markdown",
+			"context": "DECLINED",
+			"source_file": "PROMPT.md",
+			"source_location": "L122"
+		},
+		{
+			"caller_nid": "$graphify-root$_prompt_5_modelo_de_dados_preliminar_prisma",
+			"callee": "PENDING",
+			"is_member_call": false,
+			"language": "markdown",
+			"context": "PENDING",
+			"source_file": "PROMPT.md",
+			"source_location": "L122"
+		},
+		{
+			"caller_nid": "$graphify-root$_prompt_7_padr\u00f5es_de_c\u00f3digo",
+			"callee": "strict",
+			"is_member_call": false,
+			"language": "markdown",
+			"context": "strict",
+			"source_file": "PROMPT.md",
+			"source_location": "L150"
+		},
+		{
+			"caller_nid": "$graphify-root$_prompt_7_padr\u00f5es_de_c\u00f3digo",
+			"callee": "any",
+			"is_member_call": false,
+			"language": "markdown",
+			"context": "any",
+			"source_file": "PROMPT.md",
+			"source_location": "L150"
+		},
+		{
+			"caller_nid": "$graphify-root$_prompt_8_qualidade_e_testes",
+			"callee": "main",
+			"is_member_call": false,
+			"language": "markdown",
+			"context": "main",
+			"source_file": "PROMPT.md",
+			"source_location": "L164"
+		},
+		{
+			"caller_nid": "$graphify-root$_prompt_10_fluxo_de_cada_tarefa",
+			"callee": "main",
+			"is_member_call": false,
+			"language": "markdown",
+			"context": "main",
+			"source_file": "PROMPT.md",
+			"source_location": "L198"
+		}
+	],
+	"input_tokens": 0,
+	"output_tokens": 0
+}

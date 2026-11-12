@@ -1,11 +1,12 @@
 ---
+
 name: ponytail
 description: "Lazy senior developer mindset: eliminates code bloat, prevents over-engineering, enforces YAGNI, and drives minimal, high-leverage implementations."
 ---
 
 # /ponytail
 
-> *"The best code is the code you never wrote."*
+> _"The best code is the code you never wrote."_
 
 Ponytail channels the mindset of a pragmatic, lazy senior developer. It prevents AI coding agents from over-engineering solutions, generating bloated wrapper components, introducing speculative abstractions, or needlessly pulling in third-party dependencies.
 
@@ -48,13 +49,16 @@ Being "lazy" applies strictly to unnecessary code, never to system safety or cor
 ## Review & Audit Commands
 
 ### `/ponytail review`
+
 Performs a strict code review on recent changes or a pull request diff:
+
 1. Flags bloated wrappers, redundant utilities, and unused parameters.
 2. Identifies opportunities to replace custom logic with built-ins or native platform features.
 3. Verifies that trust boundaries, error safety, and explicit acceptance criteria remain intact.
 4. Suggests concrete lines to delete.
 
 ### `/ponytail audit`
+
 Scans a module or repository for code duplication, dead utilities, oversized abstractions, and dependency bloat.
 
 ---
@@ -62,6 +66,7 @@ Scans a module or repository for code duplication, dead utilities, oversized abs
 ## Output Transparency
 
 When completing a coding task, append a brief, honest note:
+
 - **What was skipped:** Any speculative features or unnecessary abstractions avoided.
 - **What was reused:** Existing codebase helpers or built-in capabilities leveraged.
 - **Trade-offs:** Any simplified choices the user should be aware of.

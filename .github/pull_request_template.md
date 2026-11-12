@@ -1,30 +1,30 @@
-## 🌿 Pull Request: [Título descritivo]
+# Pull Request Template
 
-### 1. Descrição das Alterações
-O que este PR faz e qual motivação/tarefa ele resolve?
+## What does this PR change?
 
-### 2. Critérios de Aceite Atendidos
-- [ ] Critério 1
-- [ ] Critério 2
+- Brief description of the changes (in Portuguese).
 
-### 3. Registro de Uso de Inteligência Artificial
-- **Ferramenta de IA Utilizada:** Claude Code | Antigravity | Gemini | ChatGPT | Outra
-- **Prompt-chave principal:**
-> Cole aqui o prompt mais relevante usado para gerar ou refatorar o código.
-- **O que a IA errou ou precisou de ajuste manual:**
-> Descreva qualquer correção, simplificação ou alucinação que você precisou ajustar.
+## Why?
 
-### 4. Novas Dependências
-- [ ] Nenhuma dependência nova foi adicionada.
-- [ ] Dependências adicionadas (com justificativa obrigatória):
-  - `pacote`: justificativa.
+- Explain the motivation and the problem being solved.
 
-### 5. Como Testar
-Passo a passo com comandos para o revisor humano verificar as alterações localmente.
+## How to test?
 
-### 6. Checklist de Qualidade
-- [ ] O CI está verde (lint, testes, build).
-- [ ] Nenhuma credencial ou segredo foi versionado.
-- [ ] O código segue os princípios de simplicidade e minimalismo (*ponytail*).
-- [ ] Entrada no `docs/ai-log/` criada ou atualizada.
-- [ ] O grafo de conhecimento do projeto foi atualizado (`graphify update .`).
+1. Run `pnpm install`.
+2. Start the services: `docker compose up -d`.
+3. Run `pnpm dev` and verify the affected functionality.
+4. Execute the relevant tests (`pnpm test` or `pnpm run test:api` / `pnpm run test:web`).
+
+## Checklist
+- [ ] Código segue as regras do `AGENTS.md`.
+- [ ] Todos os testes passam (`pnpm test`).
+- [ ] Lint e type‑check sem erros (`pnpm run lint`).
+- [ ] Grafo atualizado (`graphify update .`).
+- [ ] AI‑log registrado (`docs/ai-log/`).
+- [ ] Documentação (README/ADR) atualizada, se necessário.
+
+---
+
+**Ferramentas de IA usadas**: (ex.: Antigravity, Claude Code, Gemini)
+**Prompt‑chave**: (texto do prompt que gerou o código)
+**Erros ou ajustes necessários**: (breve relato)

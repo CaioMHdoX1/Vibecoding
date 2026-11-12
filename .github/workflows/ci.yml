@@ -1,4 +1,4 @@
-name: CI - Misho Bonsai
+name: CI
 
 on:
   push:
@@ -7,46 +7,44 @@ on:
     branches: [main]
 
 jobs:
-  validate:
-    name: Lint, Test & Build
+  build:
     runs-on: ubuntu-latest
-
+    services:
+      mysql:
+        image: mysql:8.4
+        env:
+          MYSQL_ROOT_PASSWORD: password
+          MYSQL_DATABASE: bonsai
+        ports: [3306:3306]
+        options: >-
+          --health-cmd "mysqladmin ping --silent"
     steps:
-      - name: Checkout do Repositório
-        uses: actions/checkout@v4
+      - name: Checkout repository
+        uses: actions/checkout@v3
 
-      - name: Instalar Node.js
-        uses: actions/setup-node@v4
+      - name: Setup Node.js
+        uses: actions/setup-node@v3
         with:
-          node-version: 20
+          node-version: '20'
+          cache: 'pnpm'
 
-      - name: Instalar pnpm
-        uses: pnpm/action-setup@v4
-        with:
-          version: 9.15.0
+      - name: Install pnpm
+        run: npm i -g pnpm
 
-      - name: Obter diretório de cache do pnpm
-        id: pnpm-cache
-        shell: bash
-        run: |
-          echo "STORE_PATH=$(pnpm store path --silent)" >> $GITHUB_OUTPUT
+      - name: Install dependencies
+        run: pnpm install
 
-      - name: Cache de dependências do pnpm
-        uses: actions/cache@v4
-        with:
-          path: ${{ steps.pnpm-cache.outputs.STORE_PATH }}
-          key: ${{ runner.os }}-pnpm-store-${{ hashFiles('**/pnpm-lock.yaml') }}
-          restore-keys: |
-            ${{ runner.os }}-pnpm-store-
-
-      - name: Instalar dependências
-        run: pnpm install --frozen-lockfile=false
-
-      - name: Lint & Verificação de Tipos
+      - name: Lint
         run: pnpm run lint
 
-      - name: Testes Automatizados
-        run: pnpm run test
+      - name: TypeCheck
+        run: pnpm run typecheck
 
-      - name: Build do Projeto
+      - name: Test (unit & integration)
+        run: pnpm test
+
+      - name: Build
         run: pnpm run build
+
+      - name: Generate graph
+        run: npx graphify update .

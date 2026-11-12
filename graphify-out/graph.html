@@ -61,7 +61,7 @@
 <script id="graphify-theme-init">
 // Apply the saved theme before first paint (#3894). No saved choice keeps the
 // historical dark look; "system" follows prefers-color-scheme.
-(function () {
+(() => {
   var pref = null;
   try { pref = localStorage.getItem('graphify-theme'); } catch (e) {}
   var t = pref === 'light' ? 'light'
@@ -431,7 +431,7 @@ function convexHull(pts) {
     const hull = build(p).concat(build(p.slice().reverse()));
     return hull.length >= 3 ? hull : p;
 }
-network.on('afterDrawing', function(ctx) {
+network.on('afterDrawing', (ctx) => {
     hyperedges.forEach(h => {
         const positions = h.nodes
             .map(nid => network.getPositions([nid])[nid])

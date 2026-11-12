@@ -1,1 +1,355 @@
-{"nodes": [{"id": "readme_ecommerce_bonsai_ia", "label": "E-commerce de Bonsai 100% IA", "file_type": "concept", "source_file": "README.md", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null, "rationale": "Demonstrar a recrutadores o dom?nio pr?tico de desenvolvimento assistido por IA sem fins comerciais."}, {"id": "readme_visao_geral", "label": "Vis?o Geral e Objetivos", "file_type": "concept", "source_file": "README.md", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null}, {"id": "readme_regras_projeto", "label": "Regras do Projeto (100% IA, Revis?o Humana)", "file_type": "rationale", "source_file": "README.md", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null, "rationale": "Nenhuma linha escrita manualmente, revis?o humana via PR, simula??o de pagamentos e transpar?ncia total."}, {"id": "readme_escopo_funcional", "label": "Escopo Funcional", "file_type": "concept", "source_file": "README.md", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null}, {"id": "readme_nicho_bonsai", "label": "Atributos de Nicho (Bonsai)", "file_type": "concept", "source_file": "README.md", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null}, {"id": "readme_ferramentas_ia", "label": "Ferramentas de IA", "file_type": "concept", "source_file": "README.md", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null}, {"id": "readme_graphify_skill", "label": "Skill graphify", "file_type": "concept", "source_file": "README.md", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null, "rationale": "Resolve problema de contexto grande demais e gasto de tokens consultando n?s em vez de ler todos os arquivos."}, {"id": "readme_ponytail_skill", "label": "Skill ponytail", "file_type": "concept", "source_file": "README.md", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null, "rationale": "Evita reinven??o da roda e c?digo redundante/verboso buscando refer?ncias e enxugando c?digo gerado."}, {"id": "readme_arquivos_contexto", "label": "Arquivos de Contexto (AGENTS/CLAUDE)", "file_type": "concept", "source_file": "README.md", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null}, {"id": "readme_fluxo_trabalho", "label": "Fluxo de Trabalho em 9 Passos", "file_type": "concept", "source_file": "README.md", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null}, {"id": "readme_convencoes_git", "label": "Conven??es de Git e Pull Requests", "file_type": "rationale", "source_file": "README.md", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null}, {"id": "readme_cronograma", "label": "Cronograma em 7 Etapas", "file_type": "concept", "source_file": "README.md", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null}, {"id": "readme_criterios_pronto", "label": "Crit?rios de Pronto (Definition of Done)", "file_type": "rationale", "source_file": "README.md", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null}, {"id": "readme_decisoes_pendentes", "label": "Decis?es Pendentes (Stack e Pap?is)", "file_type": "concept", "source_file": "README.md", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null}, {"id": "readme_riscos_mitigacoes", "label": "Riscos e Mitiga??es", "file_type": "concept", "source_file": "README.md", "source_location": null, "source_url": null, "captured_at": null, "author": null, "contributor": null}], "edges": [{"source": "readme_ecommerce_bonsai_ia", "target": "readme_visao_geral", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "README.md", "source_location": null, "weight": 1.0}, {"source": "readme_ecommerce_bonsai_ia", "target": "readme_regras_projeto", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "README.md", "source_location": null, "weight": 1.0}, {"source": "readme_ecommerce_bonsai_ia", "target": "readme_escopo_funcional", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "README.md", "source_location": null, "weight": 1.0}, {"source": "readme_escopo_funcional", "target": "readme_nicho_bonsai", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "README.md", "source_location": null, "weight": 1.0}, {"source": "readme_ecommerce_bonsai_ia", "target": "readme_ferramentas_ia", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "README.md", "source_location": null, "weight": 1.0}, {"source": "readme_ferramentas_ia", "target": "readme_graphify_skill", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "README.md", "source_location": null, "weight": 1.0}, {"source": "readme_ferramentas_ia", "target": "readme_ponytail_skill", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "README.md", "source_location": null, "weight": 1.0}, {"source": "readme_ferramentas_ia", "target": "readme_arquivos_contexto", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "README.md", "source_location": null, "weight": 1.0}, {"source": "readme_fluxo_trabalho", "target": "readme_graphify_skill", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "README.md", "source_location": null, "weight": 1.0}, {"source": "readme_fluxo_trabalho", "target": "readme_ponytail_skill", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "README.md", "source_location": null, "weight": 1.0}, {"source": "readme_fluxo_trabalho", "target": "readme_convencoes_git", "relation": "conceptually_related_to", "confidence": "INFERRED", "confidence_score": 0.85, "source_file": "README.md", "source_location": null, "weight": 1.0}, {"source": "readme_ecommerce_bonsai_ia", "target": "readme_cronograma", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "README.md", "source_location": null, "weight": 1.0}, {"source": "readme_ecommerce_bonsai_ia", "target": "readme_criterios_pronto", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "README.md", "source_location": null, "weight": 1.0}, {"source": "readme_ecommerce_bonsai_ia", "target": "readme_decisoes_pendentes", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "README.md", "source_location": null, "weight": 1.0}, {"source": "readme_ecommerce_bonsai_ia", "target": "readme_riscos_mitigacoes", "relation": "references", "confidence": "EXTRACTED", "confidence_score": 1.0, "source_file": "README.md", "source_location": null, "weight": 1.0}], "hyperedges": [{"id": "fluxo_desenvolvimento_ia", "label": "Fluxo de Trabalho Assistido por IA", "nodes": ["readme_fluxo_trabalho", "readme_graphify_skill", "readme_ponytail_skill", "readme_regras_projeto"], "relation": "participate_in", "confidence": "INFERRED", "confidence_score": 0.85, "source_file": "README.md"}, {"id": "governanca_e_qualidade", "label": "Governan?a e Qualidade de C?digo", "nodes": ["readme_regras_projeto", "readme_convencoes_git", "readme_criterios_pronto", "readme_riscos_mitigacoes"], "relation": "form", "confidence": "INFERRED", "confidence_score": 0.85, "source_file": "README.md"}]}
+{
+	"nodes": [
+		{
+			"id": "readme_ecommerce_bonsai_ia",
+			"label": "E-commerce de Bonsai 100% IA",
+			"file_type": "concept",
+			"source_file": "README.md",
+			"source_location": null,
+			"source_url": null,
+			"captured_at": null,
+			"author": null,
+			"contributor": null,
+			"rationale": "Demonstrar a recrutadores o dom?nio pr?tico de desenvolvimento assistido por IA sem fins comerciais."
+		},
+		{
+			"id": "readme_visao_geral",
+			"label": "Vis?o Geral e Objetivos",
+			"file_type": "concept",
+			"source_file": "README.md",
+			"source_location": null,
+			"source_url": null,
+			"captured_at": null,
+			"author": null,
+			"contributor": null
+		},
+		{
+			"id": "readme_regras_projeto",
+			"label": "Regras do Projeto (100% IA, Revis?o Humana)",
+			"file_type": "rationale",
+			"source_file": "README.md",
+			"source_location": null,
+			"source_url": null,
+			"captured_at": null,
+			"author": null,
+			"contributor": null,
+			"rationale": "Nenhuma linha escrita manualmente, revis?o humana via PR, simula??o de pagamentos e transpar?ncia total."
+		},
+		{
+			"id": "readme_escopo_funcional",
+			"label": "Escopo Funcional",
+			"file_type": "concept",
+			"source_file": "README.md",
+			"source_location": null,
+			"source_url": null,
+			"captured_at": null,
+			"author": null,
+			"contributor": null
+		},
+		{
+			"id": "readme_nicho_bonsai",
+			"label": "Atributos de Nicho (Bonsai)",
+			"file_type": "concept",
+			"source_file": "README.md",
+			"source_location": null,
+			"source_url": null,
+			"captured_at": null,
+			"author": null,
+			"contributor": null
+		},
+		{
+			"id": "readme_ferramentas_ia",
+			"label": "Ferramentas de IA",
+			"file_type": "concept",
+			"source_file": "README.md",
+			"source_location": null,
+			"source_url": null,
+			"captured_at": null,
+			"author": null,
+			"contributor": null
+		},
+		{
+			"id": "readme_graphify_skill",
+			"label": "Skill graphify",
+			"file_type": "concept",
+			"source_file": "README.md",
+			"source_location": null,
+			"source_url": null,
+			"captured_at": null,
+			"author": null,
+			"contributor": null,
+			"rationale": "Resolve problema de contexto grande demais e gasto de tokens consultando n?s em vez de ler todos os arquivos."
+		},
+		{
+			"id": "readme_ponytail_skill",
+			"label": "Skill ponytail",
+			"file_type": "concept",
+			"source_file": "README.md",
+			"source_location": null,
+			"source_url": null,
+			"captured_at": null,
+			"author": null,
+			"contributor": null,
+			"rationale": "Evita reinven??o da roda e c?digo redundante/verboso buscando refer?ncias e enxugando c?digo gerado."
+		},
+		{
+			"id": "readme_arquivos_contexto",
+			"label": "Arquivos de Contexto (AGENTS/CLAUDE)",
+			"file_type": "concept",
+			"source_file": "README.md",
+			"source_location": null,
+			"source_url": null,
+			"captured_at": null,
+			"author": null,
+			"contributor": null
+		},
+		{
+			"id": "readme_fluxo_trabalho",
+			"label": "Fluxo de Trabalho em 9 Passos",
+			"file_type": "concept",
+			"source_file": "README.md",
+			"source_location": null,
+			"source_url": null,
+			"captured_at": null,
+			"author": null,
+			"contributor": null
+		},
+		{
+			"id": "readme_convencoes_git",
+			"label": "Conven??es de Git e Pull Requests",
+			"file_type": "rationale",
+			"source_file": "README.md",
+			"source_location": null,
+			"source_url": null,
+			"captured_at": null,
+			"author": null,
+			"contributor": null
+		},
+		{
+			"id": "readme_cronograma",
+			"label": "Cronograma em 7 Etapas",
+			"file_type": "concept",
+			"source_file": "README.md",
+			"source_location": null,
+			"source_url": null,
+			"captured_at": null,
+			"author": null,
+			"contributor": null
+		},
+		{
+			"id": "readme_criterios_pronto",
+			"label": "Crit?rios de Pronto (Definition of Done)",
+			"file_type": "rationale",
+			"source_file": "README.md",
+			"source_location": null,
+			"source_url": null,
+			"captured_at": null,
+			"author": null,
+			"contributor": null
+		},
+		{
+			"id": "readme_decisoes_pendentes",
+			"label": "Decis?es Pendentes (Stack e Pap?is)",
+			"file_type": "concept",
+			"source_file": "README.md",
+			"source_location": null,
+			"source_url": null,
+			"captured_at": null,
+			"author": null,
+			"contributor": null
+		},
+		{
+			"id": "readme_riscos_mitigacoes",
+			"label": "Riscos e Mitiga??es",
+			"file_type": "concept",
+			"source_file": "README.md",
+			"source_location": null,
+			"source_url": null,
+			"captured_at": null,
+			"author": null,
+			"contributor": null
+		}
+	],
+	"edges": [
+		{
+			"source": "readme_ecommerce_bonsai_ia",
+			"target": "readme_visao_geral",
+			"relation": "references",
+			"confidence": "EXTRACTED",
+			"confidence_score": 1.0,
+			"source_file": "README.md",
+			"source_location": null,
+			"weight": 1.0
+		},
+		{
+			"source": "readme_ecommerce_bonsai_ia",
+			"target": "readme_regras_projeto",
+			"relation": "references",
+			"confidence": "EXTRACTED",
+			"confidence_score": 1.0,
+			"source_file": "README.md",
+			"source_location": null,
+			"weight": 1.0
+		},
+		{
+			"source": "readme_ecommerce_bonsai_ia",
+			"target": "readme_escopo_funcional",
+			"relation": "references",
+			"confidence": "EXTRACTED",
+			"confidence_score": 1.0,
+			"source_file": "README.md",
+			"source_location": null,
+			"weight": 1.0
+		},
+		{
+			"source": "readme_escopo_funcional",
+			"target": "readme_nicho_bonsai",
+			"relation": "references",
+			"confidence": "EXTRACTED",
+			"confidence_score": 1.0,
+			"source_file": "README.md",
+			"source_location": null,
+			"weight": 1.0
+		},
+		{
+			"source": "readme_ecommerce_bonsai_ia",
+			"target": "readme_ferramentas_ia",
+			"relation": "references",
+			"confidence": "EXTRACTED",
+			"confidence_score": 1.0,
+			"source_file": "README.md",
+			"source_location": null,
+			"weight": 1.0
+		},
+		{
+			"source": "readme_ferramentas_ia",
+			"target": "readme_graphify_skill",
+			"relation": "references",
+			"confidence": "EXTRACTED",
+			"confidence_score": 1.0,
+			"source_file": "README.md",
+			"source_location": null,
+			"weight": 1.0
+		},
+		{
+			"source": "readme_ferramentas_ia",
+			"target": "readme_ponytail_skill",
+			"relation": "references",
+			"confidence": "EXTRACTED",
+			"confidence_score": 1.0,
+			"source_file": "README.md",
+			"source_location": null,
+			"weight": 1.0
+		},
+		{
+			"source": "readme_ferramentas_ia",
+			"target": "readme_arquivos_contexto",
+			"relation": "references",
+			"confidence": "EXTRACTED",
+			"confidence_score": 1.0,
+			"source_file": "README.md",
+			"source_location": null,
+			"weight": 1.0
+		},
+		{
+			"source": "readme_fluxo_trabalho",
+			"target": "readme_graphify_skill",
+			"relation": "references",
+			"confidence": "EXTRACTED",
+			"confidence_score": 1.0,
+			"source_file": "README.md",
+			"source_location": null,
+			"weight": 1.0
+		},
+		{
+			"source": "readme_fluxo_trabalho",
+			"target": "readme_ponytail_skill",
+			"relation": "references",
+			"confidence": "EXTRACTED",
+			"confidence_score": 1.0,
+			"source_file": "README.md",
+			"source_location": null,
+			"weight": 1.0
+		},
+		{
+			"source": "readme_fluxo_trabalho",
+			"target": "readme_convencoes_git",
+			"relation": "conceptually_related_to",
+			"confidence": "INFERRED",
+			"confidence_score": 0.85,
+			"source_file": "README.md",
+			"source_location": null,
+			"weight": 1.0
+		},
+		{
+			"source": "readme_ecommerce_bonsai_ia",
+			"target": "readme_cronograma",
+			"relation": "references",
+			"confidence": "EXTRACTED",
+			"confidence_score": 1.0,
+			"source_file": "README.md",
+			"source_location": null,
+			"weight": 1.0
+		},
+		{
+			"source": "readme_ecommerce_bonsai_ia",
+			"target": "readme_criterios_pronto",
+			"relation": "references",
+			"confidence": "EXTRACTED",
+			"confidence_score": 1.0,
+			"source_file": "README.md",
+			"source_location": null,
+			"weight": 1.0
+		},
+		{
+			"source": "readme_ecommerce_bonsai_ia",
+			"target": "readme_decisoes_pendentes",
+			"relation": "references",
+			"confidence": "EXTRACTED",
+			"confidence_score": 1.0,
+			"source_file": "README.md",
+			"source_location": null,
+			"weight": 1.0
+		},
+		{
+			"source": "readme_ecommerce_bonsai_ia",
+			"target": "readme_riscos_mitigacoes",
+			"relation": "references",
+			"confidence": "EXTRACTED",
+			"confidence_score": 1.0,
+			"source_file": "README.md",
+			"source_location": null,
+			"weight": 1.0
+		}
+	],
+	"hyperedges": [
+		{
+			"id": "fluxo_desenvolvimento_ia",
+			"label": "Fluxo de Trabalho Assistido por IA",
+			"nodes": [
+				"readme_fluxo_trabalho",
+				"readme_graphify_skill",
+				"readme_ponytail_skill",
+				"readme_regras_projeto"
+			],
+			"relation": "participate_in",
+			"confidence": "INFERRED",
+			"confidence_score": 0.85,
+			"source_file": "README.md"
+		},
+		{
+			"id": "governanca_e_qualidade",
+			"label": "Governan?a e Qualidade de C?digo",
+			"nodes": [
+				"readme_regras_projeto",
+				"readme_convencoes_git",
+				"readme_criterios_pronto",
+				"readme_riscos_mitigacoes"
+			],
+			"relation": "form",
+			"confidence": "INFERRED",
+			"confidence_score": 0.85,
+			"source_file": "README.md"
+		}
+	]
+}

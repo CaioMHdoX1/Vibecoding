@@ -1,1 +1,102 @@
-{"nodes": [{"id": "$graphify-root$_docs_adr_template_md", "label": "template.md", "file_type": "document", "node_kind": "page", "source_file": "docs/adr/template.md", "source_location": "L1"}, {"id": "$graphify-root$_docs_adr_template_adr_n\u00famero_t\u00edtulo_da_decis\u00e3o_arquitetural", "label": "ADR-[N\u00famero]: [T\u00edtulo da Decis\u00e3o Arquitetural]", "file_type": "document", "node_kind": "heading", "source_file": "docs/adr/template.md", "source_location": "L1"}, {"id": "$graphify-root$_docs_adr_template_1_contexto_e_problema", "label": "1. Contexto e Problema", "file_type": "document", "node_kind": "heading", "source_file": "docs/adr/template.md", "source_location": "L10"}, {"id": "$graphify-root$_docs_adr_template_2_op\u00e7\u00f5es_avaliadas", "label": "2. Op\u00e7\u00f5es Avaliadas", "file_type": "document", "node_kind": "heading", "source_file": "docs/adr/template.md", "source_location": "L13"}, {"id": "$graphify-root$_docs_adr_template_3_decis\u00e3o", "label": "3. Decis\u00e3o", "file_type": "document", "node_kind": "heading", "source_file": "docs/adr/template.md", "source_location": "L21"}, {"id": "$graphify-root$_docs_adr_template_4_consequ\u00eancias", "label": "4. Consequ\u00eancias", "file_type": "document", "node_kind": "heading", "source_file": "docs/adr/template.md", "source_location": "L25"}], "edges": [{"source": "$graphify-root$_docs_adr_template_md", "target": "$graphify-root$_docs_adr_template_adr_n\u00famero_t\u00edtulo_da_decis\u00e3o_arquitetural", "relation": "contains", "confidence": "EXTRACTED", "source_file": "docs/adr/template.md", "source_location": "L1", "weight": 1.0}, {"source": "$graphify-root$_docs_adr_template_adr_n\u00famero_t\u00edtulo_da_decis\u00e3o_arquitetural", "target": "$graphify-root$_docs_adr_template_1_contexto_e_problema", "relation": "contains", "confidence": "EXTRACTED", "source_file": "docs/adr/template.md", "source_location": "L10", "weight": 1.0}, {"source": "$graphify-root$_docs_adr_template_adr_n\u00famero_t\u00edtulo_da_decis\u00e3o_arquitetural", "target": "$graphify-root$_docs_adr_template_2_op\u00e7\u00f5es_avaliadas", "relation": "contains", "confidence": "EXTRACTED", "source_file": "docs/adr/template.md", "source_location": "L13", "weight": 1.0}, {"source": "$graphify-root$_docs_adr_template_adr_n\u00famero_t\u00edtulo_da_decis\u00e3o_arquitetural", "target": "$graphify-root$_docs_adr_template_3_decis\u00e3o", "relation": "contains", "confidence": "EXTRACTED", "source_file": "docs/adr/template.md", "source_location": "L21", "weight": 1.0}, {"source": "$graphify-root$_docs_adr_template_adr_n\u00famero_t\u00edtulo_da_decis\u00e3o_arquitetural", "target": "$graphify-root$_docs_adr_template_4_consequ\u00eancias", "relation": "contains", "confidence": "EXTRACTED", "source_file": "docs/adr/template.md", "source_location": "L25", "weight": 1.0}], "raw_calls": [], "input_tokens": 0, "output_tokens": 0}
+{
+	"nodes": [
+		{
+			"id": "$graphify-root$_docs_adr_template_md",
+			"label": "template.md",
+			"file_type": "document",
+			"node_kind": "page",
+			"source_file": "docs/adr/template.md",
+			"source_location": "L1"
+		},
+		{
+			"id": "$graphify-root$_docs_adr_template_adr_n\u00famero_t\u00edtulo_da_decis\u00e3o_arquitetural",
+			"label": "ADR-[N\u00famero]: [T\u00edtulo da Decis\u00e3o Arquitetural]",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "docs/adr/template.md",
+			"source_location": "L1"
+		},
+		{
+			"id": "$graphify-root$_docs_adr_template_1_contexto_e_problema",
+			"label": "1. Contexto e Problema",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "docs/adr/template.md",
+			"source_location": "L10"
+		},
+		{
+			"id": "$graphify-root$_docs_adr_template_2_op\u00e7\u00f5es_avaliadas",
+			"label": "2. Op\u00e7\u00f5es Avaliadas",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "docs/adr/template.md",
+			"source_location": "L13"
+		},
+		{
+			"id": "$graphify-root$_docs_adr_template_3_decis\u00e3o",
+			"label": "3. Decis\u00e3o",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "docs/adr/template.md",
+			"source_location": "L21"
+		},
+		{
+			"id": "$graphify-root$_docs_adr_template_4_consequ\u00eancias",
+			"label": "4. Consequ\u00eancias",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "docs/adr/template.md",
+			"source_location": "L25"
+		}
+	],
+	"edges": [
+		{
+			"source": "$graphify-root$_docs_adr_template_md",
+			"target": "$graphify-root$_docs_adr_template_adr_n\u00famero_t\u00edtulo_da_decis\u00e3o_arquitetural",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "docs/adr/template.md",
+			"source_location": "L1",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_docs_adr_template_adr_n\u00famero_t\u00edtulo_da_decis\u00e3o_arquitetural",
+			"target": "$graphify-root$_docs_adr_template_1_contexto_e_problema",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "docs/adr/template.md",
+			"source_location": "L10",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_docs_adr_template_adr_n\u00famero_t\u00edtulo_da_decis\u00e3o_arquitetural",
+			"target": "$graphify-root$_docs_adr_template_2_op\u00e7\u00f5es_avaliadas",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "docs/adr/template.md",
+			"source_location": "L13",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_docs_adr_template_adr_n\u00famero_t\u00edtulo_da_decis\u00e3o_arquitetural",
+			"target": "$graphify-root$_docs_adr_template_3_decis\u00e3o",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "docs/adr/template.md",
+			"source_location": "L21",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_docs_adr_template_adr_n\u00famero_t\u00edtulo_da_decis\u00e3o_arquitetural",
+			"target": "$graphify-root$_docs_adr_template_4_consequ\u00eancias",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "docs/adr/template.md",
+			"source_location": "L25",
+			"weight": 1.0
+		}
+	],
+	"raw_calls": [],
+	"input_tokens": 0,
+	"output_tokens": 0
+}

@@ -1,1 +1,224 @@
-{"nodes": [{"id": "$graphify-root$_agents_md", "label": "AGENTS.md", "file_type": "document", "node_kind": "page", "source_file": "AGENTS.md", "source_location": "L1"}, {"id": "$graphify-root$_agents_agents_md_regras_e_contexto_para_ferramentas_de_ia_misho_bonsai", "label": "AGENTS.md: Regras e Contexto para Ferramentas de IA (Misho Bonsai)", "file_type": "document", "node_kind": "heading", "source_file": "AGENTS.md", "source_location": "L1"}, {"id": "$graphify-root$_agents_1_contexto_do_projeto", "label": "1. Contexto do Projeto", "file_type": "document", "node_kind": "heading", "source_file": "AGENTS.md", "source_location": "L8"}, {"id": "$graphify-root$_agents_2_regras_inegoci\u00e1veis", "label": "2. Regras Inegoci\u00e1veis", "file_type": "document", "node_kind": "heading", "source_file": "AGENTS.md", "source_location": "L17"}, {"id": "$graphify-root$_agents_3_padr\u00f5es_de_c\u00f3digo_e_idioma", "label": "3. Padr\u00f5es de C\u00f3digo e Idioma", "file_type": "document", "node_kind": "heading", "source_file": "AGENTS.md", "source_location": "L29"}, {"id": "$graphify-root$_agents_4_skills_de_apoio_obrigat\u00f3rias", "label": "4. Skills de Apoio Obrigat\u00f3rias", "file_type": "document", "node_kind": "heading", "source_file": "AGENTS.md", "source_location": "L39"}, {"id": "$graphify-root$_agents_4_1_graphify_navega\u00e7\u00e3o_em_grafo", "label": "4.1 graphify (Navega\u00e7\u00e3o em Grafo)", "file_type": "document", "node_kind": "heading", "source_file": "AGENTS.md", "source_location": "L41"}, {"id": "$graphify-root$_agents_4_2_ponytail_minimalismo_e_anti_bloat", "label": "4.2 ponytail (Minimalismo e Anti-Bloat)", "file_type": "document", "node_kind": "heading", "source_file": "AGENTS.md", "source_location": "L46"}, {"id": "$graphify-root$_agents_4_3_interview_me_especifica\u00e7\u00e3o_socr\u00e1tica", "label": "4.3 interview-me (Especifica\u00e7\u00e3o Socr\u00e1tica)", "file_type": "document", "node_kind": "heading", "source_file": "AGENTS.md", "source_location": "L55"}, {"id": "$graphify-root$_agents_5_estrutura_do_monorepo", "label": "5. Estrutura do Monorepo", "file_type": "document", "node_kind": "heading", "source_file": "AGENTS.md", "source_location": "L60"}, {"id": "$graphify-root$_agents_6_comandos_principais", "label": "6. Comandos Principais", "file_type": "document", "node_kind": "heading", "source_file": "AGENTS.md", "source_location": "L78"}], "edges": [{"source": "$graphify-root$_agents_md", "target": "$graphify-root$_agents_agents_md_regras_e_contexto_para_ferramentas_de_ia_misho_bonsai", "relation": "contains", "confidence": "EXTRACTED", "source_file": "AGENTS.md", "source_location": "L1", "weight": 1.0}, {"source": "$graphify-root$_agents_agents_md_regras_e_contexto_para_ferramentas_de_ia_misho_bonsai", "target": "$graphify-root$_agents_1_contexto_do_projeto", "relation": "contains", "confidence": "EXTRACTED", "source_file": "AGENTS.md", "source_location": "L8", "weight": 1.0}, {"source": "$graphify-root$_agents_agents_md_regras_e_contexto_para_ferramentas_de_ia_misho_bonsai", "target": "$graphify-root$_agents_2_regras_inegoci\u00e1veis", "relation": "contains", "confidence": "EXTRACTED", "source_file": "AGENTS.md", "source_location": "L17", "weight": 1.0}, {"source": "$graphify-root$_agents_agents_md_regras_e_contexto_para_ferramentas_de_ia_misho_bonsai", "target": "$graphify-root$_agents_3_padr\u00f5es_de_c\u00f3digo_e_idioma", "relation": "contains", "confidence": "EXTRACTED", "source_file": "AGENTS.md", "source_location": "L29", "weight": 1.0}, {"source": "$graphify-root$_agents_agents_md_regras_e_contexto_para_ferramentas_de_ia_misho_bonsai", "target": "$graphify-root$_agents_4_skills_de_apoio_obrigat\u00f3rias", "relation": "contains", "confidence": "EXTRACTED", "source_file": "AGENTS.md", "source_location": "L39", "weight": 1.0}, {"source": "$graphify-root$_agents_4_skills_de_apoio_obrigat\u00f3rias", "target": "$graphify-root$_agents_4_1_graphify_navega\u00e7\u00e3o_em_grafo", "relation": "contains", "confidence": "EXTRACTED", "source_file": "AGENTS.md", "source_location": "L41", "weight": 1.0}, {"source": "$graphify-root$_agents_4_skills_de_apoio_obrigat\u00f3rias", "target": "$graphify-root$_agents_4_2_ponytail_minimalismo_e_anti_bloat", "relation": "contains", "confidence": "EXTRACTED", "source_file": "AGENTS.md", "source_location": "L46", "weight": 1.0}, {"source": "$graphify-root$_agents_4_skills_de_apoio_obrigat\u00f3rias", "target": "$graphify-root$_agents_4_3_interview_me_especifica\u00e7\u00e3o_socr\u00e1tica", "relation": "contains", "confidence": "EXTRACTED", "source_file": "AGENTS.md", "source_location": "L55", "weight": 1.0}, {"source": "$graphify-root$_agents_agents_md_regras_e_contexto_para_ferramentas_de_ia_misho_bonsai", "target": "$graphify-root$_agents_5_estrutura_do_monorepo", "relation": "contains", "confidence": "EXTRACTED", "source_file": "AGENTS.md", "source_location": "L60", "weight": 1.0}, {"source": "$graphify-root$_agents_agents_md_regras_e_contexto_para_ferramentas_de_ia_misho_bonsai", "target": "$graphify-root$_agents_6_comandos_principais", "relation": "contains", "confidence": "EXTRACTED", "source_file": "AGENTS.md", "source_location": "L78", "weight": 1.0}], "raw_calls": [{"caller_nid": "$graphify-root$_agents_2_regras_inegoci\u00e1veis", "callee": "main", "is_member_call": false, "language": "markdown", "context": "main", "source_file": "AGENTS.md", "source_location": "L20"}, {"caller_nid": "$graphify-root$_agents_2_regras_inegoci\u00e1veis", "callee": "graphify", "is_member_call": false, "language": "markdown", "context": "graphify", "source_file": "AGENTS.md", "source_location": "L25"}, {"caller_nid": "$graphify-root$_agents_3_padr\u00f5es_de_c\u00f3digo_e_idioma", "callee": "strict", "is_member_call": false, "language": "markdown", "context": "strict", "source_file": "AGENTS.md", "source_location": "L34"}, {"caller_nid": "$graphify-root$_agents_3_padr\u00f5es_de_c\u00f3digo_e_idioma", "callee": "any", "is_member_call": false, "language": "markdown", "context": "any", "source_file": "AGENTS.md", "source_location": "L34"}], "input_tokens": 0, "output_tokens": 0}
+{
+	"nodes": [
+		{
+			"id": "$graphify-root$_agents_md",
+			"label": "AGENTS.md",
+			"file_type": "document",
+			"node_kind": "page",
+			"source_file": "AGENTS.md",
+			"source_location": "L1"
+		},
+		{
+			"id": "$graphify-root$_agents_agents_md_regras_e_contexto_para_ferramentas_de_ia_misho_bonsai",
+			"label": "AGENTS.md: Regras e Contexto para Ferramentas de IA (Misho Bonsai)",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "AGENTS.md",
+			"source_location": "L1"
+		},
+		{
+			"id": "$graphify-root$_agents_1_contexto_do_projeto",
+			"label": "1. Contexto do Projeto",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "AGENTS.md",
+			"source_location": "L8"
+		},
+		{
+			"id": "$graphify-root$_agents_2_regras_inegoci\u00e1veis",
+			"label": "2. Regras Inegoci\u00e1veis",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "AGENTS.md",
+			"source_location": "L17"
+		},
+		{
+			"id": "$graphify-root$_agents_3_padr\u00f5es_de_c\u00f3digo_e_idioma",
+			"label": "3. Padr\u00f5es de C\u00f3digo e Idioma",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "AGENTS.md",
+			"source_location": "L29"
+		},
+		{
+			"id": "$graphify-root$_agents_4_skills_de_apoio_obrigat\u00f3rias",
+			"label": "4. Skills de Apoio Obrigat\u00f3rias",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "AGENTS.md",
+			"source_location": "L39"
+		},
+		{
+			"id": "$graphify-root$_agents_4_1_graphify_navega\u00e7\u00e3o_em_grafo",
+			"label": "4.1 graphify (Navega\u00e7\u00e3o em Grafo)",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "AGENTS.md",
+			"source_location": "L41"
+		},
+		{
+			"id": "$graphify-root$_agents_4_2_ponytail_minimalismo_e_anti_bloat",
+			"label": "4.2 ponytail (Minimalismo e Anti-Bloat)",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "AGENTS.md",
+			"source_location": "L46"
+		},
+		{
+			"id": "$graphify-root$_agents_4_3_interview_me_especifica\u00e7\u00e3o_socr\u00e1tica",
+			"label": "4.3 interview-me (Especifica\u00e7\u00e3o Socr\u00e1tica)",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "AGENTS.md",
+			"source_location": "L55"
+		},
+		{
+			"id": "$graphify-root$_agents_5_estrutura_do_monorepo",
+			"label": "5. Estrutura do Monorepo",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "AGENTS.md",
+			"source_location": "L60"
+		},
+		{
+			"id": "$graphify-root$_agents_6_comandos_principais",
+			"label": "6. Comandos Principais",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": "AGENTS.md",
+			"source_location": "L78"
+		}
+	],
+	"edges": [
+		{
+			"source": "$graphify-root$_agents_md",
+			"target": "$graphify-root$_agents_agents_md_regras_e_contexto_para_ferramentas_de_ia_misho_bonsai",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "AGENTS.md",
+			"source_location": "L1",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_agents_agents_md_regras_e_contexto_para_ferramentas_de_ia_misho_bonsai",
+			"target": "$graphify-root$_agents_1_contexto_do_projeto",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "AGENTS.md",
+			"source_location": "L8",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_agents_agents_md_regras_e_contexto_para_ferramentas_de_ia_misho_bonsai",
+			"target": "$graphify-root$_agents_2_regras_inegoci\u00e1veis",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "AGENTS.md",
+			"source_location": "L17",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_agents_agents_md_regras_e_contexto_para_ferramentas_de_ia_misho_bonsai",
+			"target": "$graphify-root$_agents_3_padr\u00f5es_de_c\u00f3digo_e_idioma",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "AGENTS.md",
+			"source_location": "L29",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_agents_agents_md_regras_e_contexto_para_ferramentas_de_ia_misho_bonsai",
+			"target": "$graphify-root$_agents_4_skills_de_apoio_obrigat\u00f3rias",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "AGENTS.md",
+			"source_location": "L39",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_agents_4_skills_de_apoio_obrigat\u00f3rias",
+			"target": "$graphify-root$_agents_4_1_graphify_navega\u00e7\u00e3o_em_grafo",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "AGENTS.md",
+			"source_location": "L41",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_agents_4_skills_de_apoio_obrigat\u00f3rias",
+			"target": "$graphify-root$_agents_4_2_ponytail_minimalismo_e_anti_bloat",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "AGENTS.md",
+			"source_location": "L46",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_agents_4_skills_de_apoio_obrigat\u00f3rias",
+			"target": "$graphify-root$_agents_4_3_interview_me_especifica\u00e7\u00e3o_socr\u00e1tica",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "AGENTS.md",
+			"source_location": "L55",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_agents_agents_md_regras_e_contexto_para_ferramentas_de_ia_misho_bonsai",
+			"target": "$graphify-root$_agents_5_estrutura_do_monorepo",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "AGENTS.md",
+			"source_location": "L60",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_agents_agents_md_regras_e_contexto_para_ferramentas_de_ia_misho_bonsai",
+			"target": "$graphify-root$_agents_6_comandos_principais",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": "AGENTS.md",
+			"source_location": "L78",
+			"weight": 1.0
+		}
+	],
+	"raw_calls": [
+		{
+			"caller_nid": "$graphify-root$_agents_2_regras_inegoci\u00e1veis",
+			"callee": "main",
+			"is_member_call": false,
+			"language": "markdown",
+			"context": "main",
+			"source_file": "AGENTS.md",
+			"source_location": "L20"
+		},
+		{
+			"caller_nid": "$graphify-root$_agents_2_regras_inegoci\u00e1veis",
+			"callee": "graphify",
+			"is_member_call": false,
+			"language": "markdown",
+			"context": "graphify",
+			"source_file": "AGENTS.md",
+			"source_location": "L25"
+		},
+		{
+			"caller_nid": "$graphify-root$_agents_3_padr\u00f5es_de_c\u00f3digo_e_idioma",
+			"callee": "strict",
+			"is_member_call": false,
+			"language": "markdown",
+			"context": "strict",
+			"source_file": "AGENTS.md",
+			"source_location": "L34"
+		},
+		{
+			"caller_nid": "$graphify-root$_agents_3_padr\u00f5es_de_c\u00f3digo_e_idioma",
+			"callee": "any",
+			"is_member_call": false,
+			"language": "markdown",
+			"context": "any",
+			"source_file": "AGENTS.md",
+			"source_location": "L34"
+		}
+	],
+	"input_tokens": 0,
+	"output_tokens": 0
+}

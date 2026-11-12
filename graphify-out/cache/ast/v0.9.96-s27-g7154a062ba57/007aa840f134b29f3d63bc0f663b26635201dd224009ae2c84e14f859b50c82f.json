@@ -1,1 +1,185 @@
-{"nodes": [{"id": "$graphify-root$_agents_skills_ponytail_skill_md", "label": "SKILL.md", "file_type": "document", "node_kind": "page", "source_file": ".agents/skills/ponytail/SKILL.md", "source_location": "L1", "frontmatter": {"name": "ponytail", "description": "Lazy senior developer mindset: eliminates code bloat, prevents over-engineering, enforces YAGNI, and drives minimal, high-leverage implementations."}}, {"id": "$graphify-root$_agents_skills_ponytail_skill_ponytail", "label": "/ponytail", "file_type": "document", "node_kind": "heading", "source_file": ".agents/skills/ponytail/SKILL.md", "source_location": "L6"}, {"id": "$graphify-root$_agents_skills_ponytail_skill_the_core_philosophy_the_ladder", "label": "The Core Philosophy: \"The Ladder\"", "file_type": "document", "node_kind": "heading", "source_file": ".agents/skills/ponytail/SKILL.md", "source_location": "L14"}, {"id": "$graphify-root$_agents_skills_ponytail_skill_what_not_to_cut_non_negotiable_boundaries", "label": "What NOT to Cut (Non-Negotiable Boundaries)", "file_type": "document", "node_kind": "heading", "source_file": ".agents/skills/ponytail/SKILL.md", "source_location": "L28"}, {"id": "$graphify-root$_agents_skills_ponytail_skill_intensity_modes", "label": "Intensity Modes", "file_type": "document", "node_kind": "heading", "source_file": ".agents/skills/ponytail/SKILL.md", "source_location": "L40"}, {"id": "$graphify-root$_agents_skills_ponytail_skill_review_audit_commands", "label": "Review & Audit Commands", "file_type": "document", "node_kind": "heading", "source_file": ".agents/skills/ponytail/SKILL.md", "source_location": "L48"}, {"id": "$graphify-root$_agents_skills_ponytail_skill_ponytail_review", "label": "`/ponytail review`", "file_type": "document", "node_kind": "heading", "source_file": ".agents/skills/ponytail/SKILL.md", "source_location": "L50"}, {"id": "$graphify-root$_agents_skills_ponytail_skill_ponytail_audit", "label": "`/ponytail audit`", "file_type": "document", "node_kind": "heading", "source_file": ".agents/skills/ponytail/SKILL.md", "source_location": "L57"}, {"id": "$graphify-root$_agents_skills_ponytail_skill_output_transparency", "label": "Output Transparency", "file_type": "document", "node_kind": "heading", "source_file": ".agents/skills/ponytail/SKILL.md", "source_location": "L62"}], "edges": [{"source": "$graphify-root$_agents_skills_ponytail_skill_md", "target": "$graphify-root$_agents_skills_ponytail_skill_ponytail", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".agents/skills/ponytail/SKILL.md", "source_location": "L6", "weight": 1.0}, {"source": "$graphify-root$_agents_skills_ponytail_skill_ponytail", "target": "$graphify-root$_agents_skills_ponytail_skill_the_core_philosophy_the_ladder", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".agents/skills/ponytail/SKILL.md", "source_location": "L14", "weight": 1.0}, {"source": "$graphify-root$_agents_skills_ponytail_skill_ponytail", "target": "$graphify-root$_agents_skills_ponytail_skill_what_not_to_cut_non_negotiable_boundaries", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".agents/skills/ponytail/SKILL.md", "source_location": "L28", "weight": 1.0}, {"source": "$graphify-root$_agents_skills_ponytail_skill_ponytail", "target": "$graphify-root$_agents_skills_ponytail_skill_intensity_modes", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".agents/skills/ponytail/SKILL.md", "source_location": "L40", "weight": 1.0}, {"source": "$graphify-root$_agents_skills_ponytail_skill_ponytail", "target": "$graphify-root$_agents_skills_ponytail_skill_review_audit_commands", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".agents/skills/ponytail/SKILL.md", "source_location": "L48", "weight": 1.0}, {"source": "$graphify-root$_agents_skills_ponytail_skill_review_audit_commands", "target": "$graphify-root$_agents_skills_ponytail_skill_ponytail_review", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".agents/skills/ponytail/SKILL.md", "source_location": "L50", "weight": 1.0}, {"source": "$graphify-root$_agents_skills_ponytail_skill_review_audit_commands", "target": "$graphify-root$_agents_skills_ponytail_skill_ponytail_audit", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".agents/skills/ponytail/SKILL.md", "source_location": "L57", "weight": 1.0}, {"source": "$graphify-root$_agents_skills_ponytail_skill_ponytail", "target": "$graphify-root$_agents_skills_ponytail_skill_output_transparency", "relation": "contains", "confidence": "EXTRACTED", "source_file": ".agents/skills/ponytail/SKILL.md", "source_location": "L62", "weight": 1.0}], "raw_calls": [{"caller_nid": "$graphify-root$_agents_skills_ponytail_skill_intensity_modes", "callee": "lite", "is_member_call": false, "language": "markdown", "context": "lite", "source_file": ".agents/skills/ponytail/SKILL.md", "source_location": "L42"}, {"caller_nid": "$graphify-root$_agents_skills_ponytail_skill_intensity_modes", "callee": "full", "is_member_call": false, "language": "markdown", "context": "full", "source_file": ".agents/skills/ponytail/SKILL.md", "source_location": "L43"}, {"caller_nid": "$graphify-root$_agents_skills_ponytail_skill_intensity_modes", "callee": "ultra", "is_member_call": false, "language": "markdown", "context": "ultra", "source_file": ".agents/skills/ponytail/SKILL.md", "source_location": "L44"}], "input_tokens": 0, "output_tokens": 0}
+{
+	"nodes": [
+		{
+			"id": "$graphify-root$_agents_skills_ponytail_skill_md",
+			"label": "SKILL.md",
+			"file_type": "document",
+			"node_kind": "page",
+			"source_file": ".agents/skills/ponytail/SKILL.md",
+			"source_location": "L1",
+			"frontmatter": {
+				"name": "ponytail",
+				"description": "Lazy senior developer mindset: eliminates code bloat, prevents over-engineering, enforces YAGNI, and drives minimal, high-leverage implementations."
+			}
+		},
+		{
+			"id": "$graphify-root$_agents_skills_ponytail_skill_ponytail",
+			"label": "/ponytail",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".agents/skills/ponytail/SKILL.md",
+			"source_location": "L6"
+		},
+		{
+			"id": "$graphify-root$_agents_skills_ponytail_skill_the_core_philosophy_the_ladder",
+			"label": "The Core Philosophy: \"The Ladder\"",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".agents/skills/ponytail/SKILL.md",
+			"source_location": "L14"
+		},
+		{
+			"id": "$graphify-root$_agents_skills_ponytail_skill_what_not_to_cut_non_negotiable_boundaries",
+			"label": "What NOT to Cut (Non-Negotiable Boundaries)",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".agents/skills/ponytail/SKILL.md",
+			"source_location": "L28"
+		},
+		{
+			"id": "$graphify-root$_agents_skills_ponytail_skill_intensity_modes",
+			"label": "Intensity Modes",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".agents/skills/ponytail/SKILL.md",
+			"source_location": "L40"
+		},
+		{
+			"id": "$graphify-root$_agents_skills_ponytail_skill_review_audit_commands",
+			"label": "Review & Audit Commands",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".agents/skills/ponytail/SKILL.md",
+			"source_location": "L48"
+		},
+		{
+			"id": "$graphify-root$_agents_skills_ponytail_skill_ponytail_review",
+			"label": "`/ponytail review`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".agents/skills/ponytail/SKILL.md",
+			"source_location": "L50"
+		},
+		{
+			"id": "$graphify-root$_agents_skills_ponytail_skill_ponytail_audit",
+			"label": "`/ponytail audit`",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".agents/skills/ponytail/SKILL.md",
+			"source_location": "L57"
+		},
+		{
+			"id": "$graphify-root$_agents_skills_ponytail_skill_output_transparency",
+			"label": "Output Transparency",
+			"file_type": "document",
+			"node_kind": "heading",
+			"source_file": ".agents/skills/ponytail/SKILL.md",
+			"source_location": "L62"
+		}
+	],
+	"edges": [
+		{
+			"source": "$graphify-root$_agents_skills_ponytail_skill_md",
+			"target": "$graphify-root$_agents_skills_ponytail_skill_ponytail",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".agents/skills/ponytail/SKILL.md",
+			"source_location": "L6",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_agents_skills_ponytail_skill_ponytail",
+			"target": "$graphify-root$_agents_skills_ponytail_skill_the_core_philosophy_the_ladder",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".agents/skills/ponytail/SKILL.md",
+			"source_location": "L14",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_agents_skills_ponytail_skill_ponytail",
+			"target": "$graphify-root$_agents_skills_ponytail_skill_what_not_to_cut_non_negotiable_boundaries",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".agents/skills/ponytail/SKILL.md",
+			"source_location": "L28",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_agents_skills_ponytail_skill_ponytail",
+			"target": "$graphify-root$_agents_skills_ponytail_skill_intensity_modes",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".agents/skills/ponytail/SKILL.md",
+			"source_location": "L40",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_agents_skills_ponytail_skill_ponytail",
+			"target": "$graphify-root$_agents_skills_ponytail_skill_review_audit_commands",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".agents/skills/ponytail/SKILL.md",
+			"source_location": "L48",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_agents_skills_ponytail_skill_review_audit_commands",
+			"target": "$graphify-root$_agents_skills_ponytail_skill_ponytail_review",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".agents/skills/ponytail/SKILL.md",
+			"source_location": "L50",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_agents_skills_ponytail_skill_review_audit_commands",
+			"target": "$graphify-root$_agents_skills_ponytail_skill_ponytail_audit",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".agents/skills/ponytail/SKILL.md",
+			"source_location": "L57",
+			"weight": 1.0
+		},
+		{
+			"source": "$graphify-root$_agents_skills_ponytail_skill_ponytail",
+			"target": "$graphify-root$_agents_skills_ponytail_skill_output_transparency",
+			"relation": "contains",
+			"confidence": "EXTRACTED",
+			"source_file": ".agents/skills/ponytail/SKILL.md",
+			"source_location": "L62",
+			"weight": 1.0
+		}
+	],
+	"raw_calls": [
+		{
+			"caller_nid": "$graphify-root$_agents_skills_ponytail_skill_intensity_modes",
+			"callee": "lite",
+			"is_member_call": false,
+			"language": "markdown",
+			"context": "lite",
+			"source_file": ".agents/skills/ponytail/SKILL.md",
+			"source_location": "L42"
+		},
+		{
+			"caller_nid": "$graphify-root$_agents_skills_ponytail_skill_intensity_modes",
+			"callee": "full",
+			"is_member_call": false,
+			"language": "markdown",
+			"context": "full",
+			"source_file": ".agents/skills/ponytail/SKILL.md",
+			"source_location": "L43"
+		},
+		{
+			"caller_nid": "$graphify-root$_agents_skills_ponytail_skill_intensity_modes",
+			"callee": "ultra",
+			"is_member_call": false,
+			"language": "markdown",
+			"context": "ultra",
+			"source_file": ".agents/skills/ponytail/SKILL.md",
+			"source_location": "L44"
+		}
+	],
+	"input_tokens": 0,
+	"output_tokens": 0
+}

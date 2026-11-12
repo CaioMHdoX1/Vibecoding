@@ -1,1 +1,16 @@
-{"ambiguous_scale": "", "epoch": "v0.9.96-s27-g7154a062ba57", "excludes": [], "follow_symlinks": false, "full_clean": true, "gitignore": true, "graph_mtime_ns": 1794334844527478400, "graph_size": 241386, "html_present": true, "no_cluster": false, "rcfile": "", "scan_digest": "eb509eb28ef4876f015b7098f1be14b1", "scan_root": "C:\\Users\\Caio Lucas\\Desktop\\vibe", "viz_node_limit": ""}
+{
+	"ambiguous_scale": "",
+	"epoch": "v0.9.96-s27-g7154a062ba57",
+	"excludes": [],
+	"follow_symlinks": false,
+	"full_clean": true,
+	"gitignore": true,
+	"graph_mtime_ns": 1794334844527478400,
+	"graph_size": 241386,
+	"html_present": true,
+	"no_cluster": false,
+	"rcfile": "",
+	"scan_digest": "eb509eb28ef4876f015b7098f1be14b1",
+	"scan_root": "C:\\Users\\Caio Lucas\\Desktop\\vibe",
+	"viz_node_limit": ""
+}
