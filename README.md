@@ -1,37 +1,50 @@
-# Bonsai Store
+# Bonsai Shop (E‑commerce de Bonsai)
 
-Este repositório contém o código‑fonte de um **e‑commerce de bonsai** desenvolvido 100 % por IA, para demonstração de boas práticas de engenharia.
+> Projeto demonstrativo 100 % gerado por IA para mostrar boas práticas de engenharia.
 
-## 📦 Tecnologias
-- **TypeScript** (strict)
-- **React + Vite** (frontend)
-- **NestJS** (backend)
-- **Prisma + MySQL** (banco de dados)
-- **Docker Compose** (ambiente local)
-- **pnpm workspaces** (monorepo)
+## Visão geral
+- **Monorepo** com `apps/web` (React + Vite) e `apps/api` (NestJS + Prisma).
+- **TypeScript** em modo `strict`.
+- **Docker Compose** para subir banco MySQL, API e front em um único comando.
+- **CI** no GitHub Actions: lint, testes (Jest, Vitest, Playwright) e build.
+- **Graphify** e **Ponytail** como assistentes de IA para navegação de código e revisão.
 
-## 🛠️ Como rodar o projeto
+## Começando
 ```bash
 # Instalar dependências
 pnpm install
 
-# Subir banco e serviços
+# Subir ambiente local (Docker)
 docker compose up -d
 
-# Iniciar API e Web simultaneamente
-pnpm dev
+# Executar a API
+pnpm --filter api dev
+
+# Executar o front
+pnpm --filter web dev
 ```
 
-A aplicação ficará disponível em `http://localhost:3000` (frontend) e `http://localhost:4000` (API).
+Veja [docs/SETUP.md](docs/SETUP.md) para detalhes de instalação, testes e uso das ferramentas de IA.
 
-## 📚 Documentação
-- Arquitetura e decisões: `docs/adr/`
-- Especificações e critérios de aceite: `docs/specs/`
-- Registro de uso de IA: `docs/ai-log/`
-
-## 🎨 Identidade visual
-Nome da loja: **Bonsai Verde** – logo simples de folha verde, paleta de verdes e terra, tipografia serifada elegante (conforme proposta).
+## Estrutura do repositório
+```
+/ (raiz)
+├─ .github/          # CI & templates
+├─ apps/              # Aplicações
+│   ├─ api/           # NestJS + Prisma
+│   └─ web/           # React + Vite
+├─ docs/              # Documentação
+│   ├─ adr/           # Decisões de arquitetura (ADRs)
+│   ├─ ai-log/        # Registro de prompts e lições
+│   └─ SETUP.md       # Guia de configuração e ferramentas
+├─ packages/          # Código compartilhado
+│   └─ shared/        # Tipos e contratos
+├─ scripts/           # Scripts auxiliares
+├─ graphify-out/      # Artefatos do Graphify (gerados)
+├─ LICENSE            # MIT
+└─ README.md          # Este arquivo
+```
 
 ---
 
-*Este projeto não será publicado; a licença será adicionada apenas se necessário no futuro.*
+*Este repositório foi concebido para demonstrar workflow de desenvolvimento assistido por IA, seguindo as regras definidas em `docs/prompt.md` e `docs/AGENTS.md`.*

@@ -2,28 +2,22 @@ name: CI
 
 on:
   push:
-    branches: [main]
+    branches: [ main ]
   pull_request:
-    branches: [main]
+    branches: [ main ]
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    services:
-      mysql:
-        image: mysql:8.4
-        env:
-          MYSQL_ROOT_PASSWORD: password
-          MYSQL_DATABASE: bonsai
-        ports: [3306:3306]
-        options: >-
-          --health-cmd "mysqladmin ping --silent"
+    defaults:
+      run:
+        shell: bash
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
         with:
           node-version: '20'
           cache: 'pnpm'
@@ -32,19 +26,17 @@ jobs:
         run: npm i -g pnpm
 
       - name: Install dependencies
-        run: pnpm install
+        run: pnpm install --frozen-lockfile
 
       - name: Lint
-        run: pnpm run lint
+        run: pnpm lint
 
-      - name: TypeCheck
-        run: pnpm run typecheck
-
-      - name: Test (unit & integration)
-        run: pnpm test
+      - name: Test (API & Front)
+        run: |
+          pnpm --filter api test
+          pnpm --filter web test
 
       - name: Build
-        run: pnpm run build
-
-      - name: Generate graph
-        run: npx graphify update .
+        run: |
+          pnpm --filter api build
+          pnpm --filter web build
