@@ -1,26 +1,16 @@
-import React from 'react'
-import { createBrowserRouter, RouterProvider, Outlet, Link, useParams, NavLink } from 'react-router-dom'
-import App from './App'
-import ProductPage from './pages/ProductPage'
-
-// Root layout that renders App and an Outlet for child routes
-function RootLayout() {
-  return (
-    <>
-      <App />
-      <Outlet />
-    </>
-  )
-}
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import App from './App';
+import CatalogPage from './pages/CatalogPage';
+import ProductPage from './pages/ProductPage';
 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <RootLayout />, // renders App with header/footer
+    element: <App />,
     children: [
       {
         index: true,
-        element: <div className="p-8 text-center">Home (placeholder)</div>,
+        element: <CatalogPage />,
       },
       {
         path: 'product/:slug',
@@ -28,8 +18,8 @@ const router = createBrowserRouter([
       },
     ],
   },
-])
+]);
 
 export default function Router() {
-  return <RouterProvider router={router} />
+  return <RouterProvider router={router} />;
 }

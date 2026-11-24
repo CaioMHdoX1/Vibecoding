@@ -17,3 +17,8 @@ graphify-out/
 
 # Logs
 *.log
+
+# Binaries / executables
+agy_executable
+freellmapi
+
