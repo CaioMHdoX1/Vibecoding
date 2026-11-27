@@ -1,17 +1,17 @@
 # Graph Report - vibe  (2026-11-26)
 
 ## Corpus Check
-- 83 files · ~17,257 words
+- 83 files · ~17,660 words
 - Verdict: corpus is large enough that graph structure adds value.
 - Unclassified: 5 file(s) not represented in the graph (top: (none) 2, .example 1, .prisma 1)
 
 ## Summary
-- 633 nodes · 769 edges · 57 communities (39 shown, 18 thin omitted)
+- 635 nodes · 771 edges · 57 communities (39 shown, 18 thin omitted)
 - Extraction: 99% EXTRACTED · 1% INFERRED · 0% AMBIGUOUS · INFERRED: 8 edges (avg confidence: 0.89)
 - Token cost: 0 input · 0 output
 
 ## Graph Freshness
-- Built from commit: `94862d5a`
+- Built from commit: `bc1e3fc2`
 - Run `git rev-parse HEAD` and compare to check if the graph is stale.
 - Run `graphify update .` after code changes (no API cost).
 
@@ -232,8 +232,8 @@ Cohesion: 0.05
 Nodes (20): AuthController, AuthModule, AuthService, LoginDto, RegisterDto, JwtAuthGuard, JwtPayload, JwtStrategy (+12 more)
 
 ### Community 220 - "CatalogPage.tsx"
-Cohesion: 0.08
-Nodes (36): App(), ROLE_LABELS, DiscountCarousel(), DiscountCarouselProps, CARE_LABELS, ProductCard(), ProductCardProps, STYLE_LABELS (+28 more)
+Cohesion: 0.07
+Nodes (37): App(), ROLE_LABELS, DiscountCarousel(), DiscountCarouselProps, CARE_LABELS, ProductCard(), ProductCardProps, STYLE_LABELS (+29 more)
 
 ### Community 221 - "Client Configurations"
 Cohesion: 0.29
@@ -261,7 +261,7 @@ Nodes (4): ProductDetail, ProductImage, ProductVariant, Review
 
 ## Knowledge Gaps
 - **7 isolated node(s):** `@21st-dev/cli`, `Gatilho /graphify no .claude`, `Cronograma em 7 Etapas`, `Decisões Pendentes (Stack e Papéis)`, `Atributos de Nicho (Bonsai)` (+2 more)
-  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 338 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
+  These have ≤1 connection - possible missing edges or undocumented components. (Counts symbols only; 340 node(s) total have ≤1 connection when file, concept and rationale nodes are included.)
 - **18 thin communities (<3 nodes) omitted from report** — run `graphify query` to explore isolated nodes.
 
 ## Suggested Questions

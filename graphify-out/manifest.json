@@ -480,9 +480,9 @@
     "semantic_hash": ""
   },
   "apps/web/src/contexts/AuthContext.tsx": {
-    "mtime": 1795741967.4846723,
-    "seen": 1795742138.4623227,
-    "ast_hash": "e1552e778f2c1dcc14d10f83f406a1f5",
+    "mtime": 1795742587.3447306,
+    "seen": 1795742737.8322766,
+    "ast_hash": "a6a025dd27556508d90b07ea30476358",
     "semantic_hash": ""
   },
   "apps/web/src/lib/api.ts": {
@@ -492,9 +492,9 @@
     "semantic_hash": ""
   },
   "apps/web/src/pages/LoginPage.tsx": {
-    "mtime": 1795741980.5688663,
-    "seen": 1795742138.4623227,
-    "ast_hash": "720cc4a45ca3bda6e5bea63ca8f46cd4",
+    "mtime": 1795742603.3625486,
+    "seen": 1795742737.8322766,
+    "ast_hash": "c3b8704e3f19dcc38d02482e7ba5dd2f",
     "semantic_hash": ""
   },
   "apps/web/src/pages/RegisterPage.tsx": {
