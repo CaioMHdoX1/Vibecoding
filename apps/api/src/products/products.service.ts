@@ -1,33 +1,57 @@
 import { Injectable, NotFoundException } from '@nestjs/common';
 import { PrismaService } from '../prisma/prisma.service';
-import { ProductDetail } from '@shared/models/ProductDetail';
+
+export interface ProductVariant {
+  id: string;
+  size: string;
+  pot: string;
+  price: number;
+  stockQuantity: number;
+}
+
+export interface ProductImage {
+  url: string;
+  alt: string;
+  position: number;
+}
+
+export interface ProductReview {
+  id: string;
+  userId: string;
+  rating: number;
+  comment: string;
+  createdAt: string;
+}
+
+export interface ProductDetail {
+  id: string;
+  name: string;
+  slug: string;
+  description: string;
+  species: string;
+  estimatedAge: string;
+  style: string;
+  careLevel: string;
+  sunExposure: string;
+  priceBase: number;
+  images: ProductImage[];
+  variants: ProductVariant[];
+  careGuide: string;
+  reviews: ProductReview[];
+}
 
 @Injectable()
 export class ProductsService {
   constructor(private readonly prisma: PrismaService) {}
 
-  /**
-   * Retrieves a product by its slug and assembles the full ProductDetail object.
-   * Includes images, variants, reviews and the care guide (stored as a text field).
-   */
   async findBySlug(slug: string): Promise<ProductDetail | null> {
     const product = await this.prisma.product.findUnique({
       where: { slug },
-      include: {
-        images: true,
-        variants: true,
-        reviews: true,
-        // Assuming a `careGuide` field exists on the Product model as string
-        // If not, Prisma will ignore it.
-        // You can adjust the schema later.
-      },
+      include: { images: true, variants: true, reviews: true },
     });
 
-    if (!product) {
-      return null;
-    }
+    if (!product) return null;
 
-    // Map Prisma fields to the shared ProductDetail interface
     const detail: ProductDetail = {
       id: product.id.toString(),
       name: product.name,
@@ -39,20 +63,20 @@ export class ProductsService {
       careLevel: product.careLevel ?? '',
       sunExposure: product.sunExposure ?? '',
       priceBase: Number(product.priceBase ?? 0),
-      images: (product.images || []).map((img) => ({
+      images: (product.images || []).map((img: { url: string; alt: string | null; position: number | null }) => ({
         url: img.url,
         alt: img.alt ?? '',
         position: img.position ?? 0,
       })),
-      variants: (product.variants || []).map((v) => ({
+      variants: (product.variants || []).map((v: { id: string; size: string; pot: string; price: unknown; stockQuantity: number }) => ({
         id: v.id.toString(),
         size: v.size,
         pot: v.pot,
         price: Number(v.price),
         stockQuantity: v.stockQuantity,
       })),
-      careGuide: product.careGuide ?? '',
-      reviews: (product.reviews || []).map((r) => ({
+      careGuide: (product as unknown as { careGuide?: string }).careGuide ?? '',
+      reviews: (product.reviews || []).map((r: { id: string; userId: string; rating: number; comment: string | null; createdAt: Date }) => ({
         id: r.id.toString(),
         userId: r.userId.toString(),
         rating: r.rating,

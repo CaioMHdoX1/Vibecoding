@@ -7,6 +7,10 @@
     "magic": {
       "command": "npx",
       "args": ["-y", "@21st-dev/cli@latest", "mcp", "start"]
+    },
+    "chrome-devtools": {
+      "command": "npx",
+      "args": ["-y", "chrome-devtools-mcp@latest"]
     }
   }
 }

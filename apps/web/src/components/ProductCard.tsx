@@ -1,9 +1,10 @@
 import { Link } from 'react-router-dom';
-import { Sun, Calendar, ArrowRight } from 'lucide-react';
+import { Sun, Calendar, ArrowRight, Tag } from 'lucide-react';
 import { CatalogProduct } from '../data/products';
 
 interface ProductCardProps {
   product: CatalogProduct;
+  compact?: boolean;
 }
 
 const STYLE_LABELS: Record<string, string> = {
@@ -22,11 +23,18 @@ const CARE_LABELS: Record<string, { text: string; bg: string }> = {
   AVANCADO: { text: 'Avançado', bg: 'bg-clay-100 text-clay-900' },
 };
 
-export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
+export const ProductCard: React.FC<ProductCardProps> = ({ product, compact = false }) => {
   const priceFormatted = (product.priceBase / 100).toLocaleString('pt-BR', {
     style: 'currency',
     currency: 'BRL',
   });
+
+  const originalPriceFormatted = product.originalPrice
+    ? (product.originalPrice / 100).toLocaleString('pt-BR', {
+        style: 'currency',
+        currency: 'BRL',
+      })
+    : null;
 
   const careBadge = CARE_LABELS[product.careLevel] || {
     text: product.careLevel,
@@ -34,8 +42,8 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   };
 
   return (
-    <article className="group bg-linen-50 border border-linen-300 rounded-sm overflow-hidden flex flex-col transition-all duration-300 hover:shadow-lg hover:border-moss-300 hover:-translate-y-0.5">
-      {/* Imagem do Produto com Tag de Estilo */}
+    <article className="group bg-linen-50 border border-linen-300 rounded-sm overflow-hidden flex flex-col h-full transition-all duration-300 hover:shadow-lg hover:border-moss-300 hover:-translate-y-0.5">
+      {/* Imagem do Produto com Tag de Desconto e Estilo */}
       <div className="relative aspect-[4/3] bg-linen-200 overflow-hidden">
         <img
           src={product.imageUrl}
@@ -43,16 +51,28 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
           loading="lazy"
           className="w-full h-full object-cover transition-transform duration-500 ease-out group-hover:scale-105"
         />
-        <div className="absolute top-3 left-3 flex flex-wrap gap-1.5">
-          <span className={`text-[11px] font-medium tracking-wide uppercase px-2.5 py-0.5 rounded-sm backdrop-blur-sm ${careBadge.bg}`}>
-            {careBadge.text}
-          </span>
-          {product.tags?.[0] && (
-            <span className="text-[11px] font-medium tracking-wide bg-sumi-900/80 text-linen-50 px-2 py-0.5 rounded-sm backdrop-blur-sm">
-              {product.tags[0]}
+        
+        {/* Badges superiores esquerdos */}
+        <div className="absolute top-3 left-3 flex flex-wrap gap-1.5 z-10">
+          {product.discountPercent && (
+            <span className="text-[11px] font-bold tracking-wide bg-clay-700 text-linen-50 px-2.5 py-0.5 rounded-sm shadow-sm flex items-center gap-1">
+              <Tag className="w-3 h-3" />
+              -{product.discountPercent}% OFF
             </span>
           )}
+          <span className={`text-[11px] font-medium tracking-wide uppercase px-2 py-0.5 rounded-sm backdrop-blur-sm ${careBadge.bg}`}>
+            {careBadge.text}
+          </span>
         </div>
+
+        {/* Tag secundária (ex: Peça Única, Rara) */}
+        {product.tags && product.tags.filter(t => t !== 'Oportunidade')[0] && (
+          <div className="absolute top-3 right-3 z-10">
+            <span className="text-[10px] font-medium tracking-wider bg-sumi-900/80 text-linen-50 px-2 py-0.5 rounded-sm backdrop-blur-sm">
+              {product.tags.filter(t => t !== 'Oportunidade')[0]}
+            </span>
+          </div>
+        )}
       </div>
 
       {/* Conteúdo do Card */}
@@ -69,9 +89,11 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
             </Link>
           </h3>
 
-          <p className="mt-2 text-xs text-sumi-600 line-clamp-2 leading-relaxed">
-            {product.description}
-          </p>
+          {!compact && (
+            <p className="mt-2 text-xs text-sumi-600 line-clamp-2 leading-relaxed">
+              {product.description}
+            </p>
+          )}
 
           {/* Micro metadados (idade e sol) */}
           <div className="mt-4 pt-3 border-t border-linen-200 flex items-center justify-between text-[11px] text-sumi-600">
@@ -89,7 +111,11 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
         {/* Rodapé do Card com Preço e Ação */}
         <div className="mt-5 pt-3 border-t border-linen-200 flex items-center justify-between">
           <div>
-            <span className="text-[10px] uppercase tracking-wider text-sumi-500 block">Preço</span>
+            {originalPriceFormatted && (
+              <span className="text-[11px] line-through text-sumi-400 block -mb-0.5 font-mono">
+                {originalPriceFormatted}
+              </span>
+            )}
             <span className="font-sans font-semibold text-base text-moss-900">
               {priceFormatted}
             </span>
@@ -97,7 +123,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
 
           <Link
             to={`/product/${product.slug}`}
-            className="inline-flex items-center gap-1.5 bg-moss-900 text-linen-50 hover:bg-moss-800 text-xs font-medium px-3.5 py-2 rounded-sm transition-colors"
+            className="inline-flex items-center gap-1.5 bg-moss-900 text-linen-50 hover:bg-moss-800 text-xs font-medium px-3.5 py-2 rounded-sm transition-colors shadow-xs"
           >
             Ver detalhes
             <ArrowRight className="w-3.5 h-3.5 transition-transform group-hover:translate-x-0.5" />

@@ -2,11 +2,14 @@ import { Product } from '@misho/shared';
 
 export interface CatalogProduct extends Product {
   priceBase: number;
+  originalPrice?: number; // Preço original para itens em promoção
+  discountPercent?: number; // Percentual de desconto
   imageUrl: string;
   imageAlt?: string;
   tags?: string[];
 }
 
+// Imagens reais e estáveis de bonsais e plantas do Unsplash
 export const MOCK_PRODUCTS: CatalogProduct[] = [
   {
     id: 'bonsai-1',
@@ -19,16 +22,18 @@ export const MOCK_PRODUCTS: CatalogProduct[] = [
     careLevel: 'AVANCADO',
     sunExposure: 'SOL_PLENO',
     active: true,
-    priceBase: 345000, // R$ 3.450,00
+    priceBase: 293000, // R$ 2.930,00 (Com 15% OFF)
+    originalPrice: 345000, // R$ 3.450,00
+    discountPercent: 15,
     imageUrl: 'https://images.unsplash.com/photo-1512428813834-c702c7702b78?auto=format&fit=crop&w=800&q=80',
     imageAlt: 'Pinheiro Negro Japonês em vaso cerâmico',
-    tags: ['Peça Única', 'Clássico'],
+    tags: ['Oportunidade', 'Peça Única', 'Clássico'],
     variants: [
       {
         id: 'var-1',
         size: 'Médio (45cm)',
         pot: 'Cerâmica Tokoname Tradicional',
-        price: 345000,
+        price: 293000,
         stockQuantity: 1,
         sku: 'MSH-PIN-001',
       },
@@ -46,8 +51,8 @@ export const MOCK_PRODUCTS: CatalogProduct[] = [
     sunExposure: 'MEIA_SOMBRA',
     active: true,
     priceBase: 219000, // R$ 2.190,00
-    imageUrl: 'https://images.unsplash.com/photo-1599598425947-630e0a5e2f7b?auto=format&fit=crop&w=800&q=80',
-    imageAlt: 'Acer Palmatum com folhas avermelhadas',
+    imageUrl: 'https://images.unsplash.com/photo-1513836279014-a89f7a76ae86?auto=format&fit=crop&w=800&q=80',
+    imageAlt: 'Bonsai de Acer com folhas avermelhadas',
     tags: ['Outono', 'Destaque'],
     variants: [
       {
@@ -72,8 +77,8 @@ export const MOCK_PRODUCTS: CatalogProduct[] = [
     sunExposure: 'SOL_PLENO',
     active: true,
     priceBase: 489000, // R$ 4.890,00
-    imageUrl: 'https://images.unsplash.com/photo-1579783902614-a3fb3927b675?auto=format&fit=crop&w=800&q=80',
-    imageAlt: 'Bonsai Shimpaku em estilo cascata',
+    imageUrl: 'https://images.unsplash.com/photo-1528183429752-a97d0bf99b5a?auto=format&fit=crop&w=800&q=80',
+    imageAlt: 'Bonsai Shimpaku esculpido em cascata',
     tags: ['Madeira Morta', 'Exclusivo'],
     variants: [
       {
@@ -97,16 +102,18 @@ export const MOCK_PRODUCTS: CatalogProduct[] = [
     careLevel: 'INICIANTE',
     sunExposure: 'MEIA_SOMBRA',
     active: true,
-    priceBase: 89000, // R$ 890,00
+    priceBase: 71200, // R$ 712,00 (Com 20% OFF)
+    originalPrice: 89000, // R$ 890,00
+    discountPercent: 20,
     imageUrl: 'https://images.unsplash.com/photo-1501004318641-b39e6451bec6?auto=format&fit=crop&w=800&q=80',
     imageAlt: 'Ficus retusa com raízes proeminentes',
-    tags: ['Iniciante Amigável', 'Ambiente Interno Iluminado'],
+    tags: ['Oportunidade', 'Iniciante Amigável'],
     variants: [
       {
         id: 'var-4',
         size: 'Pequeno (28cm)',
         pot: 'Cerâmica Artesanal Terracota',
-        price: 89000,
+        price: 71200,
         stockQuantity: 5,
         sku: 'MSH-FIC-004',
       },
@@ -124,7 +131,7 @@ export const MOCK_PRODUCTS: CatalogProduct[] = [
     sunExposure: 'SOL_PLENO',
     active: true,
     priceBase: 165000, // R$ 1.650,00
-    imageUrl: 'https://images.unsplash.com/photo-1613143329712-421712a20a46?auto=format&fit=crop&w=800&q=80',
+    imageUrl: 'https://images.unsplash.com/photo-1516205651411-aef33a44f7c2?auto=format&fit=crop&w=800&q=80',
     imageAlt: 'Olmo Chinês em estilo Literati',
     tags: ['Minimalismo', 'Literati'],
     variants: [
@@ -149,18 +156,74 @@ export const MOCK_PRODUCTS: CatalogProduct[] = [
     careLevel: 'INTERMEDIARIO',
     sunExposure: 'MEIA_SOMBRA',
     active: true,
-    priceBase: 198000, // R$ 1.980,00
-    imageUrl: 'https://images.unsplash.com/photo-1545239351-ef35f43d514b?auto=format&fit=crop&w=800&q=80',
-    imageAlt: 'Azaleia Bonsai com floração abundante',
-    tags: ['Floração', 'Primavera'],
+    priceBase: 158400, // R$ 1.584,00 (Com 20% OFF)
+    originalPrice: 198000, // R$ 1.980,00
+    discountPercent: 20,
+    imageUrl: 'https://images.unsplash.com/photo-1509316975850-ff9c5deb0cd9?auto=format&fit=crop&w=800&q=80',
+    imageAlt: 'Bonsai com flores e folhagem delicada',
+    tags: ['Oportunidade', 'Floração'],
     variants: [
       {
         id: 'var-6',
         size: 'Pequeno (30cm)',
         pot: 'Cerâmica Oval Creme',
-        price: 198000,
+        price: 158400,
         stockQuantity: 3,
         sku: 'MSH-AZA-006',
+      },
+    ],
+  },
+  {
+    id: 'bonsai-7',
+    name: 'Olea Europaea (Oliveira Centenária Bonsai)',
+    slug: 'olea-europaea-shakan',
+    description: 'Tronco rugoso com madeira entalhada pelo tempo e folhas verde-acinzentadas de alto simbolismo e longevidade.',
+    species: 'Olea europaea',
+    estimatedAge: 42,
+    style: 'SHAKAN',
+    careLevel: 'INTERMEDIARIO',
+    sunExposure: 'SOL_PLENO',
+    active: true,
+    priceBase: 312000, // R$ 3.120,00 (Com 25% OFF)
+    originalPrice: 416000, // R$ 4.160,00
+    discountPercent: 25,
+    imageUrl: 'https://images.unsplash.com/photo-1544816155-12df9643f363?auto=format&fit=crop&w=800&q=80',
+    imageAlt: 'Oliveira Bonsai com tronco rugoso',
+    tags: ['Oportunidade', 'Centenária', 'Rara'],
+    variants: [
+      {
+        id: 'var-7',
+        size: 'Grande (50cm)',
+        pot: 'Cerâmica Rústica Wabi',
+        price: 312000,
+        stockQuantity: 1,
+        sku: 'MSH-OLE-007',
+      },
+    ],
+  },
+  {
+    id: 'bonsai-8',
+    name: 'Carmona Retusa (Árvore do Chá de Fukien)',
+    slug: 'carmona-retusa-chokkan',
+    description: 'Pequenas flores brancas em formato de estrela e folhas brilhantes verde-escuras. Excelente adaptação ao cultivo interno.',
+    species: 'Carmona retusa',
+    estimatedAge: 10,
+    style: 'CHOKKAN',
+    careLevel: 'INICIANTE',
+    sunExposure: 'MEIA_SOMBRA',
+    active: true,
+    priceBase: 78000, // R$ 780,00
+    imageUrl: 'https://images.unsplash.com/photo-1463936575829-25148e1db1b8?auto=format&fit=crop&w=800&q=80',
+    imageAlt: 'Árvore do Chá Fukien com flores brancas',
+    tags: ['Floração Contínua', 'Iniciante'],
+    variants: [
+      {
+        id: 'var-8',
+        size: 'Pequeno (22cm)',
+        pot: 'Vaso Retangular Esmaltado Jade',
+        price: 78000,
+        stockQuantity: 4,
+        sku: 'MSH-CAR-008',
       },
     ],
   },

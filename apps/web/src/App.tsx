@@ -1,7 +1,16 @@
 import { Link, Outlet } from 'react-router-dom';
-import { Sprout, ShoppingBag, Sparkles } from 'lucide-react';
+import { Sprout, ShoppingBag, Sparkles, LogOut } from 'lucide-react';
+import { useAuth } from './contexts/AuthContext';
+
+const ROLE_LABELS: Record<string, string> = {
+  CUSTOMER: 'Cliente',
+  MANAGER: 'Gerente',
+  ADMIN: 'Admin',
+};
 
 export function App() {
+  const { isAuthenticated, user, logout } = useAuth();
+
   return (
     <div className="min-h-screen bg-linen-100 flex flex-col font-sans selection:bg-moss-300 selection:text-moss-900">
       {/* Top Banner de Filosofia */}
@@ -26,15 +35,39 @@ export function App() {
           </div>
 
           <nav className="flex items-center gap-6 text-xs sm:text-sm text-sumi-700 font-medium">
-            <Link to="/" className="hover:text-moss-900 transition">
-              Catálogo
-            </Link>
             <a href="#filosofia" className="hover:text-moss-900 transition hidden md:inline-block">
               Wabi-Sabi
             </a>
             <a href="#cuidados" className="hover:text-moss-900 transition hidden sm:inline-block">
               Guia de Cultivo
             </a>
+
+            {isAuthenticated && user ? (
+              <div className="flex items-center gap-3">
+                <span className="hidden sm:flex items-center gap-1.5 text-xs text-sumi-700">
+                  <span className="font-medium text-sumi-900">{user.name}</span>
+                  <span className="bg-moss-100 text-moss-800 text-[10px] uppercase tracking-wider px-1.5 py-0.5 rounded-sm font-semibold">
+                    {ROLE_LABELS[user.role] ?? user.role}
+                  </span>
+                </span>
+                <button
+                  onClick={logout}
+                  className="flex items-center gap-1 text-xs text-sumi-500 hover:text-clay-700 transition"
+                  title="Sair"
+                >
+                  <LogOut className="w-3.5 h-3.5" />
+                  <span className="hidden sm:inline">Sair</span>
+                </button>
+              </div>
+            ) : (
+              <Link
+                to="/login"
+                className="text-xs font-semibold text-moss-800 hover:text-moss-900 transition tracking-wider uppercase"
+              >
+                Entrar
+              </Link>
+            )}
+
             <button className="flex items-center gap-1.5 bg-linen-200/80 hover:bg-linen-300 text-sumi-900 px-3 py-1.5 rounded-sm transition text-xs font-semibold">
               <ShoppingBag className="w-3.5 h-3.5 text-moss-800" />
               <span>Sacola (0)</span>
@@ -58,13 +91,13 @@ export function App() {
             </p>
           </div>
           <div>
-            <span className="text-[11px] uppercase tracking-wider text-sumi-800 font-semibold block mb-2">Cultivo & Origem</span>
+            <span className="text-[11px] uppercase tracking-wider text-sumi-800 font-semibold block mb-2">Cultivo &amp; Origem</span>
             <p className="leading-relaxed">
               Cada árvore acompanha certificado de autenticidade botânica, histórico de poda e orientação contínua de cuidado para todas as estações.
             </p>
           </div>
           <div className="text-left md:text-right">
-            <span className="text-[11px] uppercase tracking-wider text-sumi-800 font-semibold block mb-2">Atendimento & Envio</span>
+            <span className="text-[11px] uppercase tracking-wider text-sumi-800 font-semibold block mb-2">Atendimento &amp; Envio</span>
             <p className="leading-relaxed">
               Embalagens de transporte térmicas e amortecidas sob medida para garantir que a planta chegue hidratada e com estrutura preservada.
             </p>
